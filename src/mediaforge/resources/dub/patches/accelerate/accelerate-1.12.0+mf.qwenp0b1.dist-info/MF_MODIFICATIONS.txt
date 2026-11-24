@@ -1,0 +1,1 @@
+MediaForge P0b-S isolated headless/source-security qualification. Not an upstream release or production approval. See exact retained patch and recipe.

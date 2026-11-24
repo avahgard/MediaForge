@@ -1,0 +1,20 @@
+{
+  "source_report": "TASK-012_QWEN_D1_NVIDIA_N1_INDEPENDENT_REVIEW.md",
+  "boundary": "Helper discovery/catalog mechanics only. N1 run_trust orchestration and inert execution plans are not reused. Production authority is GPU-DRIVER-POLICY-01 approved 2026-10-28.",
+  "sources": [
+    {
+      "historical_source": "n1_source.py",
+      "sha256": "e6f9ea9db9fc71f1ef2deaa0fa59081b94881af5ab44d639ac91a87a3ba93e26",
+      "derived_file": "driver_discovery.py",
+      "derived_sha256": "f64956b2443a4529eb799c37916da0c513a9f16ef623c1472d40258206992465"
+    },
+    {
+      "historical_source": "offline_trust.py",
+      "sha256": "8469606dcef86b68da46e08d3683c35b3021c7d5949ea91ab95c5f59e6c71838",
+      "derived_file": "driver_trust.py",
+      "derived_sha256": "023a2e35c740a10b3e25ac3cac1eac50cf0370a77b8290c5c4ad250359913364"
+    }
+  ],
+  "microsoft_root_reference": "https://www.microsoft.com/pkiops/docs/repository.htm",
+  "root_2010_sha1": "3b1efd3a66ea28b16697394703a72ca340a05bd5"
+}

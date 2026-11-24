@@ -1,0 +1,124 @@
+{
+  "schema": 1,
+  "approval": "development-only; production approval pending independent review",
+  "runtime_manifest_sha256": "692aded9ed3c072c9d73285b0f23ef89a927c744b24fbe166b8327ac0ba6625c",
+  "models": [
+    {
+      "model_id": "whisper-base",
+      "revision": "ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66",
+      "members": [
+        {
+          "name": "config.json",
+          "size": 2309,
+          "sha256": "56a6d8110d311f19c8f0471e562832c7527f146b567275bfca59fcf7c184da9a"
+        },
+        {
+          "name": "model.bin",
+          "size": 145217532,
+          "sha256": "d01c3014881c9c6f3133c182f3d2887eb6ca1c789a7538c5c007196857a0a6a9"
+        },
+        {
+          "name": "README.md",
+          "size": 1991,
+          "sha256": "b922acef3616e27b1d416260b63ba7114c732f0315012006781af2da69cd1ebf"
+        },
+        {
+          "name": "tokenizer.json",
+          "size": 2203239,
+          "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab"
+        },
+        {
+          "name": "vocabulary.txt",
+          "size": 459861,
+          "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913"
+        }
+      ],
+      "runtime_fingerprint": "692aded9ed3c072c9d73285b0f23ef89a927c744b24fbe166b8327ac0ba6625c",
+      "approved": true
+    },
+    {
+      "model_id": "piper-ruslan",
+      "revision": "2f8dbe0bb0dde986411632bf014a13cdbe6596e7",
+      "members": [
+        {
+          "name": "MODEL_CARD",
+          "size": 313,
+          "sha256": "28f5c0381c1234eb17bfd77e77f893b008948c29bc351fb811abd2d6a69e7662"
+        },
+        {
+          "name": "ru_RU-ruslan-medium.onnx",
+          "size": 63201294,
+          "sha256": "72a5f88e0b20928064eb45d88e1daa21f8af62d18613580d32cbb4aed48dcf7f"
+        },
+        {
+          "name": "ru_RU-ruslan-medium.onnx.json",
+          "size": 6856,
+          "sha256": "a35b111a1b923241ba0585393092d6c7ab28ca0b9ec38d3b68ae38a65e65b869"
+        }
+      ],
+      "runtime_fingerprint": "692aded9ed3c072c9d73285b0f23ef89a927c744b24fbe166b8327ac0ba6625c",
+      "approved": true
+    },
+    {
+      "model_id": "argos-en-ru",
+      "revision": "1_9",
+      "members": [
+        {
+          "name": "README.md",
+          "size": 7704,
+          "sha256": "ae9d1fa7d28837433eb979e5e442c3907fa84d10458ff9f3d23eb372bf0061cd"
+        },
+        {
+          "name": "sentencepiece.model",
+          "size": 943491,
+          "sha256": "cdd7fd3f6b069cd1baa90d95682ec6851119ae0d734438ba85d3678b2f1e2a66"
+        },
+        {
+          "name": "metadata.json",
+          "size": 255,
+          "sha256": "a40657925da1c25d98d8a6bc53c436a5b1179bd8771e016147d88587edf1b529"
+        },
+        {
+          "name": "model/shared_vocabulary.json",
+          "size": 1207938,
+          "sha256": "5e39116c77f19b90841f9b0d0dbe4e38ecf6eadd43dff40ea1415104f441c720"
+        },
+        {
+          "name": "model/model.bin",
+          "size": 214346964,
+          "sha256": "c262cce6a506447d4b3c7a899787694df13783340ba67f0df3ecbf046ae27924"
+        },
+        {
+          "name": "model/config.json",
+          "size": 188,
+          "sha256": "3f1a3cc20b961c1fe0e6007e8ca663730c4a8b82fa54073fde03edf1402c6726"
+        },
+        {
+          "name": "stanza/resources.json",
+          "size": 121862,
+          "sha256": "39faaee80e6cca9e211dcda8fb3da4f9c024dcff5b4bfc9832a8e0e271db2fda"
+        },
+        {
+          "name": "stanza/en/tokenize/ewt.pt",
+          "size": 630886,
+          "sha256": "7bc5a1523f4e60107640ea44d2cb27c787bc339ba0c93be6c7dbf744d5635cd6"
+        }
+      ],
+      "runtime_fingerprint": "692aded9ed3c072c9d73285b0f23ef89a927c744b24fbe166b8327ac0ba6625c",
+      "approved": true
+    }
+  ],
+  "argos_archive": {
+    "bytes": 195746693,
+    "sha256": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "prefix": "translate-en_ru-1_9/"
+  },
+  "provenance": {
+    "argos_index_revision": "ff90de60728f7c1338ff6b75974e4c89b2442d22",
+    "publisher_reference_revision": "2aca7a72e1fc982e4573abf23002abe9d53597b4",
+    "argos_sources": [
+      "https://data.argosopentech.com/argospm/v1/translate-en_ru-1_9.argosmodel",
+      "https://argos-net.com/v1/translate-en_ru-1_9.argosmodel"
+    ]
+  }
+}

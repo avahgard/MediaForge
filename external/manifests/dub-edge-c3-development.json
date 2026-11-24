@@ -1,0 +1,1459 @@
+{
+  "schema": 1,
+  "approval": "development-qualification-only; independent manifest/security/service review pending",
+  "client": "edge-tts==7.3.1",
+  "python": "CPython 3.12 Windows x64",
+  "download_bytes": 1213921,
+  "upstream_manifest_sha256": "315835a2b719c3c2a5427d18bf20c4784c8ab90ce6c6485d9ab95a7fc0d34e97",
+  "manifest_sha256": "ca557ab76063c896e0d19b143280f9404cb17e3c98faa422bd061158570f5cac",
+  "members": [
+    {
+      "name": "aiohappyeyeballs/__init__.py",
+      "size": 361,
+      "sha256": "f30fbf99f793ec71ad6db3c5283821a6bf0e1ac436537ff27d9097027674442b"
+    },
+    {
+      "name": "aiohappyeyeballs/_staggered.py",
+      "size": 6698,
+      "sha256": "6a3ddc4b01c40d7f3c50c7cef5b51abbdb5fad102cce18e0f7d76910c8803863"
+    },
+    {
+      "name": "aiohappyeyeballs/impl.py",
+      "size": 9301,
+      "sha256": "eb32b7ba4aa27993fe187deb56cf16af8dfcb4fbfe63b4f5846802ca02a64bb2"
+    },
+    {
+      "name": "aiohappyeyeballs/py.typed",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "aiohappyeyeballs/types.py",
+      "size": 288,
+      "sha256": "ffc2661c58b1e8c78cd5eee144fec195e11a1b2f771acc06b7342fd3af33298f"
+    },
+    {
+      "name": "aiohappyeyeballs/utils.py",
+      "size": 2561,
+      "sha256": "c051d5f1ea4632a22b0bda6aa1f4cee2a968065775e063ef55be52a5bdb91c92"
+    },
+    {
+      "name": "aiohappyeyeballs-2.7.1.dist-info/licenses/LICENSE",
+      "size": 13936,
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+    },
+    {
+      "name": "aiohappyeyeballs-2.7.1.dist-info/METADATA",
+      "size": 5939,
+      "sha256": "e68d1bf48aec9dcc2767343dedec25e12860085cba180e10bc3d3bdd031602ba"
+    },
+    {
+      "name": "aiohappyeyeballs-2.7.1.dist-info/RECORD",
+      "size": 834,
+      "sha256": "2f3b3c859a9e2782f2b1a98f3e4ba1e52110a768e01339b7f53ed23c1dda22e7"
+    },
+    {
+      "name": "aiohappyeyeballs-2.7.1.dist-info/WHEEL",
+      "size": 88,
+      "sha256": "10612f4a984562a5cab36dfe91005ec8da093f59eb4fc649290a22e69e4360bf"
+    },
+    {
+      "name": "aiohttp/__init__.py",
+      "size": 8429,
+      "sha256": "7ddd3da8369592dbd4a04d9ada4629ce54d38779fc05ecef6cbeeb7a3e26d46e"
+    },
+    {
+      "name": "aiohttp/_cookie_helpers.py",
+      "size": 16216,
+      "sha256": "13a1c5cfede8d86eb9e5d110ae2eb9379d591efa8d228c28072ce64943bfd1b5"
+    },
+    {
+      "name": "aiohttp/_cparser.pxd",
+      "size": 2729,
+      "sha256": "69cb3016cc16fd8415d8f7d577e94595cfd705e9b8f926fa5d18171e8a1c30ae"
+    },
+    {
+      "name": "aiohttp/_find_header.pxd",
+      "size": 68,
+      "sha256": "d067f01423cddb3c442933b5fcc039b18ab651fcec1bc91c577693aafc25cf78"
+    },
+    {
+      "name": "aiohttp/_headers.pxi",
+      "size": 3460,
+      "sha256": "9fdc44f2ca263e0f6fb5e8909ac5372056183de08cfe5912e0445af512ea3e59"
+    },
+    {
+      "name": "aiohttp/_http_parser.cp312-win_amd64.pyd",
+      "size": 303104,
+      "sha256": "9e57d4cad3b16e6d18444cde0a6d03d12ab3cf1db4b113ec1d941676555c4a86"
+    },
+    {
+      "name": "aiohttp/_http_parser.pyx",
+      "size": 37452,
+      "sha256": "6e63b556cc67300e6b21336f85c0d8d5210f714d459941d8725c850c35f82393"
+    },
+    {
+      "name": "aiohttp/_http_writer.cp312-win_amd64.pyd",
+      "size": 44544,
+      "sha256": "b10cc875ff572eba927ec4dae177b479906983856ca978ce327ad93f5401a9db"
+    },
+    {
+      "name": "aiohttp/_http_writer.pyx",
+      "size": 4823,
+      "sha256": "16686a44bbfeab2bcbd8126f570935dbc545ab060c6f56f5bc72cf0adddac170"
+    },
+    {
+      "name": "aiohttp/_websocket/__init__.py",
+      "size": 44,
+      "sha256": "31aaf747dfef04dfc46b896c5bb8930155c3ece2acc0a3c6a85e71812cadefb9"
+    },
+    {
+      "name": "aiohttp/_websocket/helpers.py",
+      "size": 5026,
+      "sha256": "94c0dba6265e7e61d318dc63a5ee8ad3d665174e3c2b1cdc3af6e1f9962abe0d"
+    },
+    {
+      "name": "aiohttp/_websocket/mask.cp312-win_amd64.pyd",
+      "size": 34816,
+      "sha256": "7d9e6a8259d16dfee829d40b491646d19774d1fc3c6d72e308ef152b375691c6"
+    },
+    {
+      "name": "aiohttp/_websocket/mask.pxd",
+      "size": 112,
+      "sha256": "b01999d409b29bd916e067bc963d5f2d9ee63cfc9ae0bccb769910131417bf93"
+    },
+    {
+      "name": "aiohttp/_websocket/mask.pyx",
+      "size": 1397,
+      "sha256": "0478ceb55d0ed30ef1a7da742cd003449bc69a07cf9fdb06789bd2b347cbfffe"
+    },
+    {
+      "name": "aiohttp/_websocket/models.py",
+      "size": 2952,
+      "sha256": "8092ec93191429a91816c54c76339c9528ede35ad059108be117d107fc26c0ed"
+    },
+    {
+      "name": "aiohttp/_websocket/reader.py",
+      "size": 1030,
+      "sha256": "782e2a4b4739b0e790d9e6c01cb681a48693545692297efda58db1be1dcfab2c"
+    },
+    {
+      "name": "aiohttp/_websocket/reader_c.cp312-win_amd64.pyd",
+      "size": 150016,
+      "sha256": "f5d3ec5d3939716f1830073007e90b6fee83d4ed3659d590204bbde333feccbc"
+    },
+    {
+      "name": "aiohttp/_websocket/reader_c.pxd",
+      "size": 3141,
+      "sha256": "b00a01c059e019742893b3120ef63d2c595c83735a42513bce7f75204dda205f"
+    },
+    {
+      "name": "aiohttp/_websocket/reader_py.py",
+      "size": 26142,
+      "sha256": "8d1e9792c11de8d7aac6827b882451dedd54539b2f4f560dbbb5397ccdff530b"
+    },
+    {
+      "name": "aiohttp/_websocket/writer.py",
+      "size": 11632,
+      "sha256": "c29ddc35b1de62e3a594c7827ff781806b0a3e6dcc63f0fbf686f1ef20f44484"
+    },
+    {
+      "name": "aiohttp/abc.py",
+      "size": 8455,
+      "sha256": "1218d92a687f41adcb0f694cd1412958e23fd114c15559ab510934edeec30c28"
+    },
+    {
+      "name": "aiohttp/base_protocol.py",
+      "size": 5348,
+      "sha256": "88c31ec8c16e99dff3f101e2e38a813878af4879adf394ad89090b183a742c64"
+    },
+    {
+      "name": "aiohttp/client.py",
+      "size": 67905,
+      "sha256": "08afe5ff5106b0c4e800445576c74d362088ea9fb37bbe8cf3210d4844d6af8f"
+    },
+    {
+      "name": "aiohttp/client_exceptions.py",
+      "size": 11725,
+      "sha256": "bd33e3aaef7306266efcdd78cf488ea7c20f999eb09dc4cc1229698ccd25c1e7"
+    },
+    {
+      "name": "aiohttp/client_middleware_digest_auth.py",
+      "size": 19681,
+      "sha256": "a0d6d68f9b0182a420cd058fb7b65aae2cac62d858d7d1da8fa56c588cfe2496"
+    },
+    {
+      "name": "aiohttp/client_middlewares.py",
+      "size": 1918,
+      "sha256": "90fe4df4233340f3063c813275e55488b5132ecc3c565f06af8a8059876edef3"
+    },
+    {
+      "name": "aiohttp/client_proto.py",
+      "size": 14500,
+      "sha256": "e2245a9166011c6094248f8b2ac2f5f69eeed4e4a1827d0c17f123efeeb6b9df"
+    },
+    {
+      "name": "aiohttp/client_reqrep.py",
+      "size": 64244,
+      "sha256": "75153bcadc900440fad5607bae0b1852a736c17370505f52c9050cbdd39904ca"
+    },
+    {
+      "name": "aiohttp/client_ws.py",
+      "size": 20555,
+      "sha256": "35246f7732ab36b17713c1a82337ba8e20f83a1523f1c5988f828f073796a6fe"
+    },
+    {
+      "name": "aiohttp/compression_utils.py",
+      "size": 18700,
+      "sha256": "cc1f2d52b2fabbbda34bce79f5edc6f0fa784036250d8fb7c5231bf08de0c3ff"
+    },
+    {
+      "name": "aiohttp/connector.py",
+      "size": 71806,
+      "sha256": "49cc264ebc7d8dcbbb9181ad65f19ee171fc56765eb195d270dafa53716055a1"
+    },
+    {
+      "name": "aiohttp/cookiejar.py",
+      "size": 39806,
+      "sha256": "ed3a0ecc55983443adfc409020bd0fbf27f33c6d0d79f1da99358d3bf03877ea"
+    },
+    {
+      "name": "aiohttp/formdata.py",
+      "size": 6514,
+      "sha256": "cd1596d8e0d891679a84339dfa1c2b6befff1148b3741d9b7fa8403209022a17"
+    },
+    {
+      "name": "aiohttp/hdrs.py",
+      "size": 8146,
+      "sha256": "e841e8cf3985671a53b28fe892ffb62c2ff5bf832ad3fa4f1fbadeaa8ad022e1"
+    },
+    {
+      "name": "aiohttp/helpers.py",
+      "size": 33021,
+      "sha256": "85a132041a82c8d8b77b3daa7323213f4d171197c77b986972d972dcd19c1811"
+    },
+    {
+      "name": "aiohttp/http.py",
+      "size": 2077,
+      "sha256": "0875f116d3972bce513628d891fa63be309b2a525cde120646c08502787cde19"
+    },
+    {
+      "name": "aiohttp/http_exceptions.py",
+      "size": 3115,
+      "sha256": "2359f2a29b75b185741aaa56dab6b8a670a615c3aa3280c2e1d10b821124da52"
+    },
+    {
+      "name": "aiohttp/http_parser.py",
+      "size": 49843,
+      "sha256": "0f8ff5637605c4ec879330a9785744fc1d50e621e8c36d38d2539d3c0bf97da6"
+    },
+    {
+      "name": "aiohttp/http_websocket.py",
+      "size": 983,
+      "sha256": "f2354db21b6034f4839da6f40dcd6500eec716fb53ef2efd7992a35175fa7b6f"
+    },
+    {
+      "name": "aiohttp/http_writer.py",
+      "size": 12834,
+      "sha256": "c465f010d23c01f118494f1c25d27fcd6ad991635ecb47c149797b5c1bed9e1f"
+    },
+    {
+      "name": "aiohttp/log.py",
+      "size": 325,
+      "sha256": "05b34ac7d7b754c226d31623648d087010684bbc2375e21e49a88913bfaa2b68"
+    },
+    {
+      "name": "aiohttp/multipart.py",
+      "size": 46536,
+      "sha256": "c1436dbf370e052bdf3b28481d841dcab9e8dbf0db9bfee8599a33dd1d788234"
+    },
+    {
+      "name": "aiohttp/payload.py",
+      "size": 41608,
+      "sha256": "e7319cd9fb13c9b451818f3ec8850f3a3b95161bcdfb05e33edb2268fb4bfd25"
+    },
+    {
+      "name": "aiohttp/payload_streamer.py",
+      "size": 2225,
+      "sha256": "3c6a892adff571affb8baa7552053c8eba4ed6da0eb791100d030e2bd2e3b55e"
+    },
+    {
+      "name": "aiohttp/py.typed",
+      "size": 7,
+      "sha256": "b28c3db284f03fd4ff80401049587b19bf3ce79874e0dc2686cd967be2518193"
+    },
+    {
+      "name": "aiohttp/pytest_plugin.py",
+      "size": 12976,
+      "sha256": "786851a32d1328d390de6b5a6e4a68320b74253867543af8d3a87f93266441ef"
+    },
+    {
+      "name": "aiohttp/resolver.py",
+      "size": 10875,
+      "sha256": "898d0e938b565b961ba460a6faef1de47aa616234c9925fd182b9689e7ef0060"
+    },
+    {
+      "name": "aiohttp/streams.py",
+      "size": 24745,
+      "sha256": "14c7f018cea18a4b83bc0336a07c16e5d3e4b07479a6192893c9b3bddf43ecb7"
+    },
+    {
+      "name": "aiohttp/tcp_helpers.py",
+      "size": 961,
+      "sha256": "05269da9559a0693050d15a785a691f78d4df4c88367b6dd4ebc6009bd025be3"
+    },
+    {
+      "name": "aiohttp/test_utils.py",
+      "size": 24773,
+      "sha256": "2d44fcf9eb425841cc9c8aba4200e69573e09280bfcd34d9e32669d8e6cf3d98"
+    },
+    {
+      "name": "aiohttp/tracing.py",
+      "size": 14500,
+      "sha256": "e26a2435329d5f962ea12aef5671b80fb5933ccc1ef949581d563142346fe05c"
+    },
+    {
+      "name": "aiohttp/typedefs.py",
+      "size": 1672,
+      "sha256": "23e57a4b84fbddf23fc2425f05888bee8b44791bd51e649db24f9860f47a163d"
+    },
+    {
+      "name": "aiohttp/web.py",
+      "size": 18426,
+      "sha256": "82ccb14523d65778998cf51b391ddd206729d639b696d06d5f090f87dd5ca374"
+    },
+    {
+      "name": "aiohttp/web_app.py",
+      "size": 19559,
+      "sha256": "d644c9e91255c66ed236f54e08f2d629afa63f972c64b004415df31c30b5aa13"
+    },
+    {
+      "name": "aiohttp/web_exceptions.py",
+      "size": 10354,
+      "sha256": "0ac106f3c75020d612169925084ffb6d980bd485631e8cb97654d25501873d14"
+    },
+    {
+      "name": "aiohttp/web_fileresponse.py",
+      "size": 16404,
+      "sha256": "e6f95ff8e99f805c46e4ed731abce4f923d191bb39f22ccb95b425753f831d71"
+    },
+    {
+      "name": "aiohttp/web_log.py",
+      "size": 8487,
+      "sha256": "949083b19db1269ec7a92ba28da4d9caac49d283563e1c31244d45546516c165"
+    },
+    {
+      "name": "aiohttp/web_middlewares.py",
+      "size": 4152,
+      "sha256": "3887e79c21c98119ca8f30e31e873f57335c2ee55ff72f24bf9693cccd951af7"
+    },
+    {
+      "name": "aiohttp/web_protocol.py",
+      "size": 33219,
+      "sha256": "64a27fa5d0ae7906d705dd95318601a59908f74b2594d99d5c4ae5bf72e28f80"
+    },
+    {
+      "name": "aiohttp/web_request.py",
+      "size": 35422,
+      "sha256": "00f9eddf058f708617a0bc3456b548124f8d57b99c6ab7c5aa162267f942713d"
+    },
+    {
+      "name": "aiohttp/web_response.py",
+      "size": 30925,
+      "sha256": "78aa643c57d0c94b7f41b5e8b4d2e68f63aaae80d02fb2dd01278384eaf92e74"
+    },
+    {
+      "name": "aiohttp/web_routedef.py",
+      "size": 6077,
+      "sha256": "558018c3caf0892a7008b8a081c3995e4063ccf37204ae151e6e209fc97d4076"
+    },
+    {
+      "name": "aiohttp/web_runner.py",
+      "size": 12708,
+      "sha256": "3c651d66cfdddaacccdd39dbeb2090428c5fc2a41916e56bfcd18824166af4cb"
+    },
+    {
+      "name": "aiohttp/web_server.py",
+      "size": 3170,
+      "sha256": "2dac13e3b489b8b48862090058bfe1685807ea5572ba80f7cf2153bc16adbec1"
+    },
+    {
+      "name": "aiohttp/web_urldispatcher.py",
+      "size": 44290,
+      "sha256": "714d59eab45ea4624499e0eed9a4d2253892d70353a734950fcb5741e70302e6"
+    },
+    {
+      "name": "aiohttp/web_ws.py",
+      "size": 28358,
+      "sha256": "b75db90128267f0a01331859c68fde05e71314c4dde2d48ba4435e39fd010f35"
+    },
+    {
+      "name": "aiohttp/worker.py",
+      "size": 9146,
+      "sha256": "60ac0e0164f6178c892f6b10a2da9dd376c6b7534411d35b78bf0b5afde20a10"
+    },
+    {
+      "name": "aiohttp-3.14.5.dist-info/licenses/LICENSE.txt",
+      "size": 11313,
+      "sha256": "2e4be5fc6c4c72a466fcb665d726e049a6891981fe536c4f04b6366749461d23"
+    },
+    {
+      "name": "aiohttp-3.14.5.dist-info/licenses/vendor/llhttp/LICENSE",
+      "size": 1069,
+      "sha256": "628168d68bb5a8a17e0bbefb3bd74e326e1edc20583d76f52f457c82c921867d"
+    },
+    {
+      "name": "aiohttp-3.14.5.dist-info/METADATA",
+      "size": 8534,
+      "sha256": "063c418f586e6e668be019ff7b8cc98ee08e7f836ef205686275c7bd1a6099d7"
+    },
+    {
+      "name": "aiohttp-3.14.5.dist-info/RECORD",
+      "size": 5958,
+      "sha256": "b632e33172655650033c06dec59ca69e3a9efdf4917f9c1f3b18c2e52f10b1ab"
+    },
+    {
+      "name": "aiohttp-3.14.5.dist-info/top_level.txt",
+      "size": 8,
+      "sha256": "8aff8921a69c99397e852868dd09a985c2a76d1458c75b2de3bca3cffd7bf11a"
+    },
+    {
+      "name": "aiohttp-3.14.5.dist-info/WHEEL",
+      "size": 101,
+      "sha256": "547199cfb31450578b25778938b82f94e190e69e750e6c850e3b6d657fa1a30f"
+    },
+    {
+      "name": "aiosignal/__init__.py",
+      "size": 1537,
+      "sha256": "4c8926506f474c1b7875fab69c8498062662441db1c2f16d119c9d2cfd073cbe"
+    },
+    {
+      "name": "aiosignal/py.typed",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "aiosignal-1.4.0.dist-info/licenses/LICENSE",
+      "size": 11332,
+      "sha256": "6fd5243e92dd7f98ec69c7ac377728e74905709ff527a5bf98d6d0263c04f5b6"
+    },
+    {
+      "name": "aiosignal-1.4.0.dist-info/METADATA",
+      "size": 3662,
+      "sha256": "09247ef1da8bc696728d47130e702e4307f6f7d101d6c485bff9f3a71ce7008d"
+    },
+    {
+      "name": "aiosignal-1.4.0.dist-info/RECORD",
+      "size": 556,
+      "sha256": "0e26d97741a4a82a3c300c391d0fe61dd15acde8a443fe4b03d22ba1857a8287"
+    },
+    {
+      "name": "aiosignal-1.4.0.dist-info/top_level.txt",
+      "size": 10,
+      "sha256": "cf8e5a34e2860ddac8d6ba2a658dc1197436da42453c706655dc2d2d82ed5c2d"
+    },
+    {
+      "name": "aiosignal-1.4.0.dist-info/WHEEL",
+      "size": 91,
+      "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b"
+    },
+    {
+      "name": "attr/__init__.py",
+      "size": 2057,
+      "sha256": "7ce608bedd5e192a90adee2e092dec256299d26c00b82f140faa9b6b9392f7f5"
+    },
+    {
+      "name": "attr/__init__.pyi",
+      "size": 11325,
+      "sha256": "a55188980515a2fab6fd3625febfc72189c697239aa02b84871a3e12fb279d27"
+    },
+    {
+      "name": "attr/_cmp.py",
+      "size": 4117,
+      "sha256": "dcd9f54e3c659546225ff9c9a159c4917a0393484cd4360a8f90c4ec665ee22d"
+    },
+    {
+      "name": "attr/_cmp.pyi",
+      "size": 368,
+      "sha256": "53efd153f5193b23d4110cd713a44c61041c8e4651636e704c7f7db0dd2cecc3"
+    },
+    {
+      "name": "attr/_compat.py",
+      "size": 2829,
+      "sha256": "c7483b88450e9c15490bbdb3c850a06f578aab2c52fbb7f62c69cdc99febf79b"
+    },
+    {
+      "name": "attr/_config.py",
+      "size": 843,
+      "sha256": "746ab7c51e9f819105e9406dfcbd13f9e507201e22e37911987d0fdbcb09570f"
+    },
+    {
+      "name": "attr/_funcs.py",
+      "size": 16479,
+      "sha256": "231e481134dfcf9174d45fb5d8c17f0921689889f687c6faec4555cf6802b411"
+    },
+    {
+      "name": "attr/_make.py",
+      "size": 106129,
+      "sha256": "1fb387d9e592e429c1ccb5233451355b299f3eb985d6bf1fbf644f76df4cb980"
+    },
+    {
+      "name": "attr/_next_gen.py",
+      "size": 26274,
+      "sha256": "050b42525cf08368161d3617050beb118067cc152b0ef3b9eeed0fcba5023e17"
+    },
+    {
+      "name": "attr/_typing_compat.pyi",
+      "size": 469,
+      "sha256": "5c33f9e13527f992a10fad9339079b9b3af0172a268540a8191a5c95be9a9510"
+    },
+    {
+      "name": "attr/_version_info.py",
+      "size": 2222,
+      "sha256": "c3847e1580b734afe43241945899583f87150251fd1d1682fae9b77dc8d89073"
+    },
+    {
+      "name": "attr/_version_info.pyi",
+      "size": 209,
+      "sha256": "c7f3372f75ae07baff50b5c05a3c7de7db9d290e072c1f25fa1b1cd450c636f9"
+    },
+    {
+      "name": "attr/converters.py",
+      "size": 3861,
+      "sha256": "1a50de3b33de4c581e0412db8fd1b9ec4cf994093af2e85200b45827f7b17bce"
+    },
+    {
+      "name": "attr/converters.pyi",
+      "size": 643,
+      "sha256": "a2b5366df7fe56341ada4303caf9cc415ef7a094f6591c90bb0e19475ca6d5b1"
+    },
+    {
+      "name": "attr/exceptions.py",
+      "size": 1990,
+      "sha256": "6f8bcc6e7a10dd5a7059986aad88bfb2c5d508af28d9ce074124b4f5c49433da"
+    },
+    {
+      "name": "attr/exceptions.pyi",
+      "size": 539,
+      "sha256": "cd9abc6c2527280cbd983b41130e366613e1014207a1329e7434089c90fcf373"
+    },
+    {
+      "name": "attr/filters.py",
+      "size": 1795,
+      "sha256": "64188a58ba774742df099b2aed7d75a67f565fc36c952db05cce23b272ce19cf"
+    },
+    {
+      "name": "attr/filters.pyi",
+      "size": 208,
+      "sha256": "dc9e411be753c65b41935ffe46e351507aefdaabb5bfcbf868334043bfe689f0"
+    },
+    {
+      "name": "attr/py.typed",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "attr/setters.py",
+      "size": 1617,
+      "sha256": "e7e75c4fadc640adf938d1334a07d70a46c1ee93e4691faabf5e669b83d54b34"
+    },
+    {
+      "name": "attr/setters.pyi",
+      "size": 584,
+      "sha256": "367564685535041e0907c13826e5f2af34d482fb4ca63f29df005d258eee8b1e"
+    },
+    {
+      "name": "attr/validators.py",
+      "size": 21553,
+      "sha256": "9b7411cd94c036be1fd82e1e55d528160d753605d66a4f166ade2a4131a1bdcb"
+    },
+    {
+      "name": "attr/validators.pyi",
+      "size": 4087,
+      "sha256": "80cd59987681724c98588d848aba51373aa6dc1d7d730e48aba0782a7a3d6023"
+    },
+    {
+      "name": "attrs/__init__.py",
+      "size": 1183,
+      "sha256": "47168064dc1888487e7dcbc72d936943f0d62a78bbdccfe3c443c47ed8aad597"
+    },
+    {
+      "name": "attrs/__init__.pyi",
+      "size": 9416,
+      "sha256": "da057bf60f54c49a69192338f2101927a87f3076fbd1d66824bdf564d25e6582"
+    },
+    {
+      "name": "attrs/converters.py",
+      "size": 76,
+      "sha256": "f244258eb5707d24d1bbc20dc0493c488d1e1abce659fb6c4fbaccd04ab2a213"
+    },
+    {
+      "name": "attrs/exceptions.py",
+      "size": 76,
+      "sha256": "0020829a0d7dfaf0c56833d8f6f165d7df523d709030dfdb10db380c02e3ce6b"
+    },
+    {
+      "name": "attrs/filters.py",
+      "size": 73,
+      "sha256": "54e50c66e83db8453a754b80d1d1758c89d42b43cbddf2e03f45414b977e0831"
+    },
+    {
+      "name": "attrs/py.typed",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "attrs/setters.py",
+      "size": 73,
+      "sha256": "78bd5889d6105774f687dfd2608652651d4501c1c66f54ee093cb41342efd925"
+    },
+    {
+      "name": "attrs/validators.py",
+      "size": 76,
+      "sha256": "c5ccbac03e53b5391d086d5fe1759ba1c3d23b47da06393921f5497cfe92523d"
+    },
+    {
+      "name": "attrs-26.1.0.dist-info/licenses/LICENSE",
+      "size": 1109,
+      "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f"
+    },
+    {
+      "name": "attrs-26.1.0.dist-info/METADATA",
+      "size": 8754,
+      "sha256": "4cd40e690f23bf37cbcad34efd6758e062df1df07c86833f7e3ce95bf1fa38cc"
+    },
+    {
+      "name": "attrs-26.1.0.dist-info/RECORD",
+      "size": 2570,
+      "sha256": "ece8bf0367609a064951bcf56a1697d8c61b674d0ce7a7d57e0a93777d86b4af"
+    },
+    {
+      "name": "attrs-26.1.0.dist-info/WHEEL",
+      "size": 87,
+      "sha256": "41c708c5adba6e097513ab8ccb9f1d7865a2fb469e22491a9e01dcc64da459fc"
+    },
+    {
+      "name": "certifi/__init__.py",
+      "size": 94,
+      "sha256": "6c069810be5831ee48e99eb0fbd79c06b51803771f48d7ccd28f9c0c32270e86"
+    },
+    {
+      "name": "certifi/__main__.py",
+      "size": 243,
+      "sha256": "c410688fdd394d45812d118034e71fee88ba7beddd30fe1c1281bd3b232cd758"
+    },
+    {
+      "name": "certifi/cacert.pem",
+      "size": 235863,
+      "sha256": "2ef52ad56b4803e264045c915e55c236cbfa045b84b81efefc218a19eb44bd2b"
+    },
+    {
+      "name": "certifi/core.py",
+      "size": 3394,
+      "sha256": "5c55f2727746e697f7edac9e17c377d8752e0da7ecca191531b3b80403d61dad"
+    },
+    {
+      "name": "certifi/py.typed",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "certifi/tests/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "certifi/tests/test_certify.py",
+      "size": 467,
+      "sha256": "7c179d1edf37f7e912b133663735fb46c6338d5d0e5f8915d11c3bc287d227b8"
+    },
+    {
+      "name": "certifi-2026.10.23.dist-info/licenses/LICENSE",
+      "size": 989,
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+    },
+    {
+      "name": "certifi-2026.10.23.dist-info/METADATA",
+      "size": 2526,
+      "sha256": "e463e38f7fe7da36a11e6d3fecc5dfa5b97be8c8022620400750d79ae7d842bc"
+    },
+    {
+      "name": "certifi-2026.10.23.dist-info/RECORD",
+      "size": 950,
+      "sha256": "cda8e9d40f94e53686674f4848813b12e6a85261f306960fdbee1c6b8587a938"
+    },
+    {
+      "name": "certifi-2026.10.23.dist-info/top_level.txt",
+      "size": 8,
+      "sha256": "28cbb8bd409fb232eb90f6d235d81d7a44bea552730402453bffe723c345ebe5"
+    },
+    {
+      "name": "certifi-2026.10.23.dist-info/WHEEL",
+      "size": 91,
+      "sha256": "98e75747d0b7c0c568bfb71263c3d8f970b3a374a6996087bc642be5cb09a1aa"
+    },
+    {
+      "name": "edge_playback/__init__.py",
+      "size": 226,
+      "sha256": "d9c2e089c808af53fa8e33dbf2a251f16c1a52332ac82ff68f5371ba380b21fc"
+    },
+    {
+      "name": "edge_playback/__main__.py",
+      "size": 4015,
+      "sha256": "c291eca4384580e4bbf097b5b759ae331cbd608b9e7b51b6f131167dca3e791d"
+    },
+    {
+      "name": "edge_playback/py.typed",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "edge_playback/util.py",
+      "size": 145,
+      "sha256": "4b9b6ef9b76bd27244c824900f9adb584af068aab7957fe83634f25a50b27518"
+    },
+    {
+      "name": "edge_playback/win32_playback.py",
+      "size": 1690,
+      "sha256": "584a3428cc9a03ff537a37571c6e67468c091cd61c4d52a9ab6fd0580c8e523f"
+    },
+    {
+      "name": "edge_tts/__init__.py",
+      "size": 468,
+      "sha256": "81588b78d7a2decf86b1eb2063f788f5684e8c6ce45b306049ea90f74bf41a56"
+    },
+    {
+      "name": "edge_tts/__main__.py",
+      "size": 111,
+      "sha256": "8516525d6a33d9402f88b446e803ec99ca43743b21959f4f51772f579de27766"
+    },
+    {
+      "name": "edge_tts/communicate.py",
+      "size": 24038,
+      "sha256": "2944b7de57a49a6dc828186a8465e03fd0936102da2e717b9dce45c40c993bb9"
+    },
+    {
+      "name": "edge_tts/constants.py",
+      "size": 1777,
+      "sha256": "6c987fafa0a10aad81d8d5fc3447a14f2bca2eb86b4f97296c384253d3906c94"
+    },
+    {
+      "name": "edge_tts/data_classes.py",
+      "size": 2815,
+      "sha256": "d30989fe8ef82a51d248cf7a5afaa181e1fe76cb27a8c04bb52cb5018b98c6a4"
+    },
+    {
+      "name": "edge_tts/drm.py",
+      "size": 18490,
+      "sha256": "b29c37e2a0c11284adb2a1ffc04f0f231e1ba2d921494a912797218b05d64c4a"
+    },
+    {
+      "name": "edge_tts/exceptions.py",
+      "size": 798,
+      "sha256": "104eab67ad802b55e0dea73a06823cea7a172c8f0d72106feb619db31c25c6d0"
+    },
+    {
+      "name": "edge_tts/progress.py",
+      "size": 9003,
+      "sha256": "e5535dfcab69c615570efec8c3ef99645028e2bc7970050a8b0f1bfe5f3406ef"
+    },
+    {
+      "name": "edge_tts/py.typed",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "edge_tts/srt_composer.py",
+      "size": 10155,
+      "sha256": "96fc9ce2596db287cd0b8a4180dfa7650a5af07ad74270f5c7ca38f8463460ce"
+    },
+    {
+      "name": "edge_tts/submaker.py",
+      "size": 1757,
+      "sha256": "3d288fd6c2b2c7f98c1a2da3ce3b9f7285b65b59cb1ff62ca074b4594bdb70bb"
+    },
+    {
+      "name": "edge_tts/typing.py",
+      "size": 1558,
+      "sha256": "27d1fa863e03b4fa44b8e6420fd802bad1fbd5ce8a5f46d35cd22bd349b10510"
+    },
+    {
+      "name": "edge_tts/util.py",
+      "size": 6176,
+      "sha256": "0f4d1a13cef8d8867282ec4789ea09e1334b5b7c06685c0e9ed873844bcc092d"
+    },
+    {
+      "name": "edge_tts/version.py",
+      "size": 144,
+      "sha256": "16ccf4f100fb21a9d287958695da674a94b75e16d155ac4fb7915bbbcc9f4eb8"
+    },
+    {
+      "name": "edge_tts/voices.py",
+      "size": 3999,
+      "sha256": "b8a254a32929fab83fd56d4ee90b208e93f23a07aec088764d0366979c9cc894"
+    },
+    {
+      "name": "edge_tts-7.3.1.dist-info/entry_points.txt",
+      "size": 97,
+      "sha256": "0d5e1a4d65d73dd66038f9ccb515c8236ec85ee9d59d97edb6c518ae8afa75d5"
+    },
+    {
+      "name": "edge_tts-7.3.1.dist-info/licenses/LICENSE",
+      "size": 9041,
+      "sha256": "3613045a46a5bce847f80eadbbf013e4260ef19d728ffd061d61e792689ec3a8"
+    },
+    {
+      "name": "edge_tts-7.3.1.dist-info/METADATA",
+      "size": 6110,
+      "sha256": "af602dc774c69a77d3994135f7a687c1c281df5b6eea34d696c785981e77e005"
+    },
+    {
+      "name": "edge_tts-7.3.1.dist-info/RECORD",
+      "size": 2048,
+      "sha256": "e46122e221b9ff11f0cbba1d1f12b6659321aef705034f26d32096f4fbd1881a"
+    },
+    {
+      "name": "edge_tts-7.3.1.dist-info/top_level.txt",
+      "size": 23,
+      "sha256": "971611554d702d2d1ad981f1917614d65e82362797fbe7c99fe1de773870ccf9"
+    },
+    {
+      "name": "edge_tts-7.3.1.dist-info/WHEEL",
+      "size": 91,
+      "sha256": "61532836a2b3111b7ec23519c09df7c41180c27165fb872a6d8913b566b88ad1"
+    },
+    {
+      "name": "frozenlist/__init__.py",
+      "size": 2108,
+      "sha256": "c40204daef677006e30131883df9e8fce25f7bc010fb587bcffb9cef7758b040"
+    },
+    {
+      "name": "frozenlist/__init__.pyi",
+      "size": 1470,
+      "sha256": "bcc128112d7119e80fb555e80a2f57c9d11e1eccae22af8a75e5f03f93ddb1a0"
+    },
+    {
+      "name": "frozenlist/_frozenlist.cp312-win_amd64.pyd",
+      "size": 69632,
+      "sha256": "ac03ce4d67b103af56efa5a436954c6c5e4da0eafec878a31298f2b8ce9c6f96"
+    },
+    {
+      "name": "frozenlist/_frozenlist.pyx",
+      "size": 3708,
+      "sha256": "b7e6868ee12256dfcc64f049d119eb69abd598f04ae9aaf3de2e3c66f5ee62c5"
+    },
+    {
+      "name": "frozenlist/py.typed",
+      "size": 7,
+      "sha256": "b28c3db284f03fd4ff80401049587b19bf3ce79874e0dc2686cd967be2518193"
+    },
+    {
+      "name": "frozenlist-1.8.0.dist-info/licenses/LICENSE",
+      "size": 11332,
+      "sha256": "6fd5243e92dd7f98ec69c7ac377728e74905709ff527a5bf98d6d0263c04f5b6"
+    },
+    {
+      "name": "frozenlist-1.8.0.dist-info/METADATA",
+      "size": 21005,
+      "sha256": "4278aeb3d18f1f8b7e6af5b6771ba9a8f327012a42d64509f9d4087b55f71a94"
+    },
+    {
+      "name": "frozenlist-1.8.0.dist-info/RECORD",
+      "size": 828,
+      "sha256": "51719603e14da6433e3e545de38de73fe6be5ef354895d245c6748b78e11d94b"
+    },
+    {
+      "name": "frozenlist-1.8.0.dist-info/top_level.txt",
+      "size": 11,
+      "sha256": "8e2bedc6c3d70379cadd60565b62d6e4cb6efc61edf14640d7735e0acd9c2ae0"
+    },
+    {
+      "name": "frozenlist-1.8.0.dist-info/WHEEL",
+      "size": 101,
+      "sha256": "f143fdc7da6e588d0fd55fddecada831306a7de2cd9b6d424f367f3edaf43575"
+    },
+    {
+      "name": "idna/__init__.py",
+      "size": 944,
+      "sha256": "8514c3ed53136a3596ebdf512fa487bbdd7da5a99adcaed82e0363d2c306d3af"
+    },
+    {
+      "name": "idna/__main__.py",
+      "size": 83,
+      "sha256": "e0930aeba5a3e2e2d94ca6c5fac4f72c0c4eb2be9bba283becf98e909091471c"
+    },
+    {
+      "name": "idna/cli.py",
+      "size": 4245,
+      "sha256": "2e01972a25e67afdfba5d824013c01e808893916539c0db33f72f37c42b8896a"
+    },
+    {
+      "name": "idna/codec.py",
+      "size": 8002,
+      "sha256": "7dff4247d75e6e265cbea1261f10d122ba9299a371429cfa018e091ec0b7602d"
+    },
+    {
+      "name": "idna/compat.py",
+      "size": 1376,
+      "sha256": "4ff7995ce52dd1be5381ae7a70fc9b42ef420982b41532b599d88f6fdea76bc0"
+    },
+    {
+      "name": "idna/core.py",
+      "size": 32580,
+      "sha256": "3dd4c3ffee4ff223207fac65f3812a1e6895ae8ad1e7a6ed60115768f3551520"
+    },
+    {
+      "name": "idna/idnadata.py",
+      "size": 45763,
+      "sha256": "23a9a8c1d15de9c634d0bf213d779810f485083fe1b0f7e09044ad04a69cc7eb"
+    },
+    {
+      "name": "idna/intranges.py",
+      "size": 1851,
+      "sha256": "838f6c70b4a4a89b4084b98e3836bb8551eb8928e66fad2d893b04a287097412"
+    },
+    {
+      "name": "idna/package_data.py",
+      "size": 21,
+      "sha256": "ae759534a3c582a00ac856cfca464a39ee8251d393208d8af06b605bc20e02a9"
+    },
+    {
+      "name": "idna/py.typed",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "idna/uts46data.py",
+      "size": 237174,
+      "sha256": "770e849bfa156c71828a89440a57fe9aea70735f103ae4616ee4f682e13d6c00"
+    },
+    {
+      "name": "idna-3.20.dist-info/entry_points.txt",
+      "size": 38,
+      "sha256": "ec7de718e1daa778e72c4e5eeeaed8c2bf55abc6b107b5888f9f82ff8376be1c"
+    },
+    {
+      "name": "idna-3.20.dist-info/licenses/LICENSE.md",
+      "size": 1541,
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+    },
+    {
+      "name": "idna-3.20.dist-info/METADATA",
+      "size": 7207,
+      "sha256": "dbd8c14c1e4ca1e0c9824a6dbc7cbbf78884f38eb52d91148cd3025f671e4b85"
+    },
+    {
+      "name": "idna-3.20.dist-info/RECORD",
+      "size": 1185,
+      "sha256": "8e2670b3fc1bbf1e2cf99050b062fda50203881e43420bbc6772dad2cde2d548"
+    },
+    {
+      "name": "idna-3.20.dist-info/WHEEL",
+      "size": 81,
+      "sha256": "96a37c8d7b7f425a05386731f644adbd66ebca17c45e8236176cfe614466df9d"
+    },
+    {
+      "name": "multidict/__init__.pxd",
+      "size": 14042,
+      "sha256": "df6b17dde2af33466324b6f644e5cdba294dd525b14e5e7012cfcb82b8456665"
+    },
+    {
+      "name": "multidict/__init__.py",
+      "size": 1958,
+      "sha256": "4a45b623231b1a12ec8e2bc66c9d2c6bc7517fd0a4dde7105567f24d690159fc"
+    },
+    {
+      "name": "multidict/_abc.py",
+      "size": 3271,
+      "sha256": "f162189cb95ab02936b08b27f56c852f2391bc350a81c9e69a05f39158718acc"
+    },
+    {
+      "name": "multidict/_compat.py",
+      "size": 422,
+      "sha256": "4dc463092b64da2218d7f0f00cd8fc90da49450f6bb4b8fdd97be4d73d86fda9"
+    },
+    {
+      "name": "multidict/_multidict.cp312-win_amd64.pyd",
+      "size": 134144,
+      "sha256": "0f0a3f1afc989c768e02c60c99b5a6acb5bf12ff03887e01b283147423a3e07e"
+    },
+    {
+      "name": "multidict/_multidict_py.py",
+      "size": 56460,
+      "sha256": "523fd9566d2c74721a9280d21ee16ff98fca27631cb023eb81ccee482240cb79"
+    },
+    {
+      "name": "multidict/_testcapi.cp312-win_amd64.pyd",
+      "size": 20992,
+      "sha256": "6d69beb7208c3b7444e645d869107b72910d0409d9408cd972767239dd8aef05"
+    },
+    {
+      "name": "multidict/multidict_capi.h",
+      "size": 7209,
+      "sha256": "a54d5779549cee730b3038c6d00466ad1d56e5745e2e31f0f21ac3aa1113b1dd"
+    },
+    {
+      "name": "multidict/multidict_capi_struct.h",
+      "size": 4845,
+      "sha256": "2af326b8c8f9ed99fba266d599ef5f1a8c04af2de153ce6e771d2e8bacc45fb9"
+    },
+    {
+      "name": "multidict/py.typed",
+      "size": 15,
+      "sha256": "7bd6e66c7dd4171b1a6d0ae73453c6f6ac485f3b706dc33a20a0d89ef670a6b6"
+    },
+    {
+      "name": "multidict-7.2.1.dist-info/licenses/LICENSE",
+      "size": 11313,
+      "sha256": "2e4be5fc6c4c72a466fcb665d726e049a6891981fe536c4f04b6366749461d23"
+    },
+    {
+      "name": "multidict-7.2.1.dist-info/METADATA",
+      "size": 6291,
+      "sha256": "c72121750d4ac09c77356e3f96a0b43305d103441169c02dd29c2b222c727a97"
+    },
+    {
+      "name": "multidict-7.2.1.dist-info/RECORD",
+      "size": 1241,
+      "sha256": "87abc5cd0827a55409d78d4875f236e621bd4f90d843e80dc5dec3e67ae34bfc"
+    },
+    {
+      "name": "multidict-7.2.1.dist-info/top_level.txt",
+      "size": 10,
+      "sha256": "f9eb83125924e7faa499f209ed68aa09a6f4d999521595b29de8ca839f6a6504"
+    },
+    {
+      "name": "multidict-7.2.1.dist-info/WHEEL",
+      "size": 101,
+      "sha256": "b2601f60075ce318a1cf4b08f2b52cc397e708f776ca360504cd2ea7a3a21031"
+    },
+    {
+      "name": "propcache/__init__.py",
+      "size": 965,
+      "sha256": "c7fc9c8f9cfa822b3622c1f1c796641373dbe39b63da68f9f62e3486f15f198e"
+    },
+    {
+      "name": "propcache/_helpers.py",
+      "size": 1553,
+      "sha256": "ebc4909ba9044cdf0c9edf4e976e8b25880782607498acb5b69f76f3cf333789"
+    },
+    {
+      "name": "propcache/_helpers_c.cp312-win_amd64.pyd",
+      "size": 66048,
+      "sha256": "56076d1e6a317c70a5d1dc9971d48e2b5fe56b86d40d09eccdee23117ce34c3c"
+    },
+    {
+      "name": "propcache/_helpers_c.pyx",
+      "size": 3725,
+      "sha256": "7f76385add56f95c527456d013f6394f04db06328ce963b4d7c09d07ddb8d864"
+    },
+    {
+      "name": "propcache/_helpers_py.py",
+      "size": 1910,
+      "sha256": "1b6f699775c9f13d0baa5790c5831387d4b0237fd4746eebf4a19c4306e2d297"
+    },
+    {
+      "name": "propcache/api.py",
+      "size": 179,
+      "sha256": "c2f801fb2a64908e6e7fbd9555897634519cfd39f35100360b10bb75394be5a9"
+    },
+    {
+      "name": "propcache/py.typed",
+      "size": 14,
+      "sha256": "6b2e4e30ee3be4f95c67f15bba7f666875bb63a3014e4d145cbe33b47c7722e8"
+    },
+    {
+      "name": "propcache-0.5.4.dist-info/licenses/LICENSE",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "name": "propcache-0.5.4.dist-info/licenses/NOTICE",
+      "size": 609,
+      "sha256": "56d6ac6c8105c0a51304c21db060e361af9a8ea0af9a75c239c28b5d13693838"
+    },
+    {
+      "name": "propcache-0.5.4.dist-info/METADATA",
+      "size": 25981,
+      "sha256": "30f8056d018d2771659b9389094ab2fbee28840e8ccf67ba2179effd2f588383"
+    },
+    {
+      "name": "propcache-0.5.4.dist-info/RECORD",
+      "size": 1065,
+      "sha256": "453d3fa9c2d67d6c35bbdd20d912a6eba539c570ae186ccfaf69b1bd51774820"
+    },
+    {
+      "name": "propcache-0.5.4.dist-info/top_level.txt",
+      "size": 10,
+      "sha256": "a5517f19ba920084cf3225f6ee47d4dd03fdfae7e146f9000e6b9d0f159d177c"
+    },
+    {
+      "name": "propcache-0.5.4.dist-info/WHEEL",
+      "size": 101,
+      "sha256": "547199cfb31450578b25778938b82f94e190e69e750e6c850e3b6d657fa1a30f"
+    },
+    {
+      "name": "tabulate/__init__.py",
+      "size": 108269,
+      "sha256": "cd7815765fc75be9a9ea7638b7ad3b259db64cc7a02a6297f3ccf0186ec9b9a2"
+    },
+    {
+      "name": "tabulate-0.10.0.dist-info/entry_points.txt",
+      "size": 44,
+      "sha256": "f039828416266b69f852a0b556490a6c3e4dbb832b7596ac511a1e4ed1b4255a"
+    },
+    {
+      "name": "tabulate-0.10.0.dist-info/licenses/LICENSE",
+      "size": 1080,
+      "sha256": "cdfab50d37d8ead06468fb76a3abafcd05c16749ec8a18eebfa50fd48c7cb2d2"
+    },
+    {
+      "name": "tabulate-0.10.0.dist-info/METADATA",
+      "size": 40783,
+      "sha256": "38dfc6db689745ff4c3890b3c30ef7e5d0b156fdbeeb765b9027fd917043d84b"
+    },
+    {
+      "name": "tabulate-0.10.0.dist-info/RECORD",
+      "size": 581,
+      "sha256": "d0c58240fb670f4731704abb0cec7175b174da32cd8f5f8d76616e7d499581e3"
+    },
+    {
+      "name": "tabulate-0.10.0.dist-info/top_level.txt",
+      "size": 9,
+      "sha256": "a9faa44366b3ecb4f151e45e3ed5fc8209a1dbde0a7f5111748fb5d5a5aa1595"
+    },
+    {
+      "name": "tabulate-0.10.0.dist-info/WHEEL",
+      "size": 91,
+      "sha256": "6027f0606398322e49870d9f538c8d83012bc9b6f6217e4f13004a57865b741a"
+    },
+    {
+      "name": "typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+      "size": 13936,
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+    },
+    {
+      "name": "typing_extensions-4.16.0.dist-info/METADATA",
+      "size": 3310,
+      "sha256": "b05084ca1d50879865178d9fff9fabeab61bdfb1f361bfbde95421ffc8f9be46"
+    },
+    {
+      "name": "typing_extensions-4.16.0.dist-info/RECORD",
+      "size": 427,
+      "sha256": "44dcf97810bea7b84bcd83890b6674bbcc2f4c5ef899a4887f15d524bdf6bb97"
+    },
+    {
+      "name": "typing_extensions-4.16.0.dist-info/WHEEL",
+      "size": 82,
+      "sha256": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db"
+    },
+    {
+      "name": "typing_extensions.py",
+      "size": 165012,
+      "sha256": "4040ca1a1ecbee00d1385c12a93084d1c5bd46f0b774f07e5ae7e91c4f55e696"
+    },
+    {
+      "name": "yarl/__init__.py",
+      "size": 338,
+      "sha256": "87d51a4c308a11572f243d21ca8834625eba25bd7d6d4c1e07d17ee87f7276e7"
+    },
+    {
+      "name": "yarl/_parse.py",
+      "size": 10160,
+      "sha256": "966b4640e8fb7175f022160528b8959056f41d9e579a0476a05e0cfa4384d25a"
+    },
+    {
+      "name": "yarl/_path.py",
+      "size": 1291,
+      "sha256": "034149532959cb39a54f46b75033816caf84cd95c2018b90401bc6f5e002f61b"
+    },
+    {
+      "name": "yarl/_query.py",
+      "size": 4304,
+      "sha256": "e6e769cfda6ecb46eb79f079d2558fbaedf04dd6c481763f325a865f3b9789e1"
+    },
+    {
+      "name": "yarl/_quoters.py",
+      "size": 1088,
+      "sha256": "5f30729a84ea7b78b098b8ba099ec61592d44a35947796b81d98a62bf7219196"
+    },
+    {
+      "name": "yarl/_quoting.py",
+      "size": 506,
+      "sha256": "c8a22a153cc5cd62d56f4f31cb50d2c4a363170a387fea0b973c53b8ac02e7b3"
+    },
+    {
+      "name": "yarl/_quoting_c.cp312-win_amd64.pyd",
+      "size": 81920,
+      "sha256": "4d5b5978bdb7a001fe9e79f5f62e1b496c11ac331204104b23307c51903cb69a"
+    },
+    {
+      "name": "yarl/_quoting_c.pyx",
+      "size": 24386,
+      "sha256": "ba945a5c0adc152921ef02c4c2b7776acdc80a55b74d3498f16999d6c7cf62af"
+    },
+    {
+      "name": "yarl/_quoting_py.py",
+      "size": 9037,
+      "sha256": "372f7a62a6a1973c1699bdbb148f217f9d350cabb9188adcdb5154b8396b96f3"
+    },
+    {
+      "name": "yarl/_url.py",
+      "size": 63680,
+      "sha256": "ff63bc9a8e46ef2df05711b4333e0755ebdbc2f0458d87332e3f3686f1062ca7"
+    },
+    {
+      "name": "yarl/py.typed",
+      "size": 14,
+      "sha256": "6b2e4e30ee3be4f95c67f15bba7f666875bb63a3014e4d145cbe33b47c7722e8"
+    },
+    {
+      "name": "yarl-1.25.1.dist-info/licenses/LICENSE",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "name": "yarl-1.25.1.dist-info/licenses/NOTICE",
+      "size": 609,
+      "sha256": "56d6ac6c8105c0a51304c21db060e361af9a8ea0af9a75c239c28b5d13693838"
+    },
+    {
+      "name": "yarl-1.25.1.dist-info/METADATA",
+      "size": 115008,
+      "sha256": "a6e8eb9810e93ee04f3159904ccec9d0780f4a9ed5181a59859b47d1b1e7afeb"
+    },
+    {
+      "name": "yarl-1.25.1.dist-info/RECORD",
+      "size": 1295,
+      "sha256": "c64c8807c27ae4f806f775fa92245e5e05aadf74328af795b745808da6865e58"
+    },
+    {
+      "name": "yarl-1.25.1.dist-info/top_level.txt",
+      "size": 5,
+      "sha256": "bdfdd226e421fa4ed8b6fb14ad5fce3cead3f4aaa7d023a593b20f63286d1a44"
+    },
+    {
+      "name": "yarl-1.25.1.dist-info/WHEEL",
+      "size": 101,
+      "sha256": "547199cfb31450578b25778938b82f94e190e69e750e6c850e3b6d657fa1a30f"
+    }
+  ],
+  "wheels": [
+    {
+      "name": "edge-tts",
+      "version": "7.3.1",
+      "url": "https://files.pythonhosted.org/packages/35/86/3b97d755992777d5a9ca0e45a8ec96cc9858b2d6dd8f65f3f688d60e8709/edge_tts-7.3.1-py3-none-any.whl",
+      "sha256": "2a3c79d6235a7a736d681233823ce5492e829b43eb47beae49aa181237a8f9a4",
+      "bytes": 38908,
+      "requires_dist": [
+        "aiohttp<4.0.0,>=3.8.0",
+        "certifi>=2023.11.17",
+        "tabulate<1.0.0,>=0.4.4",
+        "typing-extensions<5.0.0,>=4.1.0",
+        "black; extra == \"dev\"",
+        "isort; extra == \"dev\"",
+        "mypy; extra == \"dev\"",
+        "pylint; extra == \"dev\"",
+        "types-tabulate; extra == \"dev\""
+      ],
+      "license": null
+    },
+    {
+      "name": "aiohttp",
+      "version": "3.14.5",
+      "url": "https://files.pythonhosted.org/packages/ae/ce/1f08114679d49655b30a6e0a29858375c94b82c1de1a0bd0a20c2fee8b02/aiohttp-3.14.5-cp312-cp312-win_amd64.whl",
+      "sha256": "2cc38a4f2b516bef1714e690df87a0e043faf1a7693c82d860091684453d5111",
+      "bytes": 506141,
+      "requires_dist": [
+        "aiohappyeyeballs>=2.5.0",
+        "aiosignal>=1.4.0",
+        "async-timeout<6.0,>=4.0; python_version < \"3.11\"",
+        "attrs>=17.3.0",
+        "frozenlist>=1.1.1",
+        "multidict<8.0,>=4.5",
+        "propcache>=0.2.0",
+        "typing_extensions>=4.4; python_version < \"3.13\"",
+        "yarl<2.0,>=1.25.1",
+        "aiodns>=3.3.0; (sys_platform != \"android\" and sys_platform != \"ios\") and extra == \"speedups\"",
+        "Brotli>=1.2; (platform_python_implementation == \"CPython\" and sys_platform != \"android\" and sys_platform != \"ios\") and extra == \"speedups\"",
+        "brotlicffi>=1.2; platform_python_implementation != \"CPython\" and extra == \"speedups\"",
+        "backports.zstd; (platform_python_implementation == \"CPython\" and python_version < \"3.14\" and sys_platform != \"android\" and sys_platform != \"ios\") and extra == \"speedups\""
+      ],
+      "license": null
+    },
+    {
+      "name": "certifi",
+      "version": "2026.10.23",
+      "url": "https://files.pythonhosted.org/packages/32/d1/a3652fe2c19134d0d15922177821d863cbd7e842d53a21bbe7e8e3a1b5ac/certifi-2026.10.23-py3-none-any.whl",
+      "sha256": "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1",
+      "bytes": 135082,
+      "requires_dist": [],
+      "license": "MPL-2.0"
+    },
+    {
+      "name": "tabulate",
+      "version": "0.10.0",
+      "url": "https://files.pythonhosted.org/packages/99/55/db07de81b5c630da5cbf5c7df646580ca26dfaefa593667fc6f2fe016d2e/tabulate-0.10.0-py3-none-any.whl",
+      "sha256": "f0b0622e567335c8fabaaa659f1b33bcb6ddfe2e496071b743aa113f8774f2d3",
+      "bytes": 39814,
+      "requires_dist": [
+        "wcwidth; extra == \"widechars\""
+      ],
+      "license": null
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "url": "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "bytes": 45571,
+      "requires_dist": [],
+      "license": null
+    },
+    {
+      "name": "aiohappyeyeballs",
+      "version": "2.7.1",
+      "url": "https://files.pythonhosted.org/packages/71/43/1947f06babed6b3f1d7f38b0c767f52df66bfb2bc10b468c4a7de9eceff2/aiohappyeyeballs-2.7.1-py3-none-any.whl",
+      "sha256": "9243213661e29250eb41368e5daa826fc017156c3b8a11440826b2e3ed376472",
+      "bytes": 15038,
+      "requires_dist": [],
+      "license": "PSF-2.0"
+    },
+    {
+      "name": "aiosignal",
+      "version": "1.4.0",
+      "url": "https://files.pythonhosted.org/packages/fb/76/641ae371508676492379f16e2fa48f4e2c11741bd63c48be4b12a6b09cba/aiosignal-1.4.0-py3-none-any.whl",
+      "sha256": "053243f8b92b990551949e63930a839ff0cf0b0ebbe0597b0f3fb19e1a0fe82e",
+      "bytes": 7490,
+      "requires_dist": [
+        "frozenlist>=1.1.0",
+        "typing-extensions>=4.2; python_version < \"3.13\""
+      ],
+      "license": "Apache 2.0"
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0",
+      "url": "https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl",
+      "sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309",
+      "bytes": 67548,
+      "requires_dist": [],
+      "license": null
+    },
+    {
+      "name": "frozenlist",
+      "version": "1.8.0",
+      "url": "https://files.pythonhosted.org/packages/b8/af/38e51a553dd66eb064cdf193841f16f077585d4d28394c2fa6235cb41765/frozenlist-1.8.0-cp312-cp312-win_amd64.whl",
+      "sha256": "34187385b08f866104f0c0617404c8eb08165ab1272e884abc89c112e9c00746",
+      "bytes": 44591,
+      "requires_dist": [],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "multidict",
+      "version": "7.2.1",
+      "url": "https://files.pythonhosted.org/packages/68/d5/64108a33c21bde81454b5a400d16baa1378a7d01599de64b131c3e3e3114/multidict-7.2.1-cp312-cp312-win_amd64.whl",
+      "sha256": "781ca5dfc2f1d58e47f52216a0c1c7e1ba91ce8aa235459e20de2d402af77fb3",
+      "bytes": 95372,
+      "requires_dist": [],
+      "license": null
+    },
+    {
+      "name": "propcache",
+      "version": "0.5.4",
+      "url": "https://files.pythonhosted.org/packages/58/7b/6e8ef26f6d510a7916064fec68d55fcbfbdf7eb01e377480d66a122152d8/propcache-0.5.4-cp312-cp312-win_amd64.whl",
+      "sha256": "98914de2c4d7f0f9f4a8c6ea4bf05841f4175796941e3ef7d47eb718f22311fb",
+      "bytes": 46190,
+      "requires_dist": [],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "yarl",
+      "version": "1.25.1",
+      "url": "https://files.pythonhosted.org/packages/bb/cc/51a7b4abf4ac593b8e7eb3794b28e5a35ae26eed8bc04787628d215af82f/yarl-1.25.1-cp312-cp312-win_amd64.whl",
+      "sha256": "7d575b54cb3863ef9bc290ea4b009999d55dc237326131e4853cf33e888fee03",
+      "bytes": 102593,
+      "requires_dist": [
+        "idna>=2.0",
+        "multidict>=4.0",
+        "propcache>=0.2.1"
+      ],
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "url": "https://files.pythonhosted.org/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl",
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+      "bytes": 69583,
+      "requires_dist": [
+        "ruff >= 0.16.0 ; extra == \"all\"",
+        "mypy >= 1.11.2 ; extra == \"all\"",
+        "ty >= 0.0.37 ; extra == \"all\"",
+        "pytest >= 8.3.2 ; extra == \"all\"",
+        "hypothesis >= 6.141.1 ; extra == \"all\"",
+        "coverage >= 7.10.0 ; extra == \"all\""
+      ],
+      "license": null
+    }
+  ],
+  "notices": [
+    "aiohappyeyeballs-2.7.1.dist-info/licenses/LICENSE",
+    "aiohttp-3.14.5.dist-info/licenses/LICENSE.txt",
+    "aiohttp-3.14.5.dist-info/licenses/vendor/llhttp/LICENSE",
+    "aiosignal-1.4.0.dist-info/licenses/LICENSE",
+    "attrs-26.1.0.dist-info/licenses/LICENSE",
+    "certifi-2026.10.23.dist-info/licenses/LICENSE",
+    "edge_tts-7.3.1.dist-info/licenses/LICENSE",
+    "frozenlist-1.8.0.dist-info/licenses/LICENSE",
+    "idna-3.20.dist-info/licenses/LICENSE.md",
+    "multidict-7.2.1.dist-info/licenses/LICENSE",
+    "propcache-0.5.4.dist-info/licenses/LICENSE",
+    "propcache-0.5.4.dist-info/licenses/NOTICE",
+    "tabulate-0.10.0.dist-info/licenses/LICENSE",
+    "typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+    "yarl-1.25.1.dist-info/licenses/LICENSE",
+    "yarl-1.25.1.dist-info/licenses/NOTICE"
+  ],
+  "adaptations": [
+    {
+      "member": "aiohttp/client.py",
+      "before_sha256": "61eaeff40f0294666a3438c751698b7777b301fe8d43fc569bfa9c9ec33f8787",
+      "after_sha256": "08afe5ff5106b0c4e800445576c74d362088ea9fb37bbe8cf3210d4844d6af8f",
+      "old": "self._retry_connection: bool = True",
+      "new": "self._retry_connection: bool = False",
+      "occurrences": 1,
+      "reason": "Disable library-internal physical connection retry; application owns serial attempt budget."
+    },
+    {
+      "member": "aiohttp/helpers.py",
+      "before_sha256": "587ef64942a5e4de725dc6ab95c91e39093312935bf7c0d619dc4517ba8c0448",
+      "after_sha256": "6e11023421f7f637c251fa7eb083de14fe576e80a3db57a36ee832aa452405ad",
+      "old": "IS_MACOS = platform.system() == \"Darwin\"",
+      "new": "IS_MACOS = sys.platform == \"darwin\"",
+      "occurrences": 1,
+      "reason": "Use the explicit host interpreter platform fact; avoid WMI/COM discovery and unmanaged shell probes. No NativeGate exception."
+    },
+    {
+      "member": "aiohttp/helpers.py",
+      "before_sha256": "6e11023421f7f637c251fa7eb083de14fe576e80a3db57a36ee832aa452405ad",
+      "after_sha256": "85a132041a82c8d8b77b3daa7323213f4d171197c77b986972d972dcd19c1811",
+      "old": "IS_WINDOWS = platform.system() == \"Windows\"",
+      "new": "IS_WINDOWS = sys.platform == \"win32\"",
+      "occurrences": 1,
+      "reason": "Use the explicit host interpreter platform fact; avoid WMI/COM discovery and unmanaged shell probes. No NativeGate exception."
+    },
+    {
+      "member": "aiohttp/web_urldispatcher.py",
+      "before_sha256": "f92c5f98875c2161514e2ab6ccecf148321dd720726c10f3eae5f1b496b79a62",
+      "after_sha256": "714d59eab45ea4624499e0eed9a4d2253892d70353a734950fcb5741e70302e6",
+      "old": "IS_WINDOWS: Final[bool] = platform.system() == \"Windows\"",
+      "new": "IS_WINDOWS: Final[bool] = sys.platform == \"win32\"",
+      "occurrences": 1,
+      "reason": "Use the explicit host interpreter platform fact; avoid WMI/COM discovery and unmanaged shell probes. No NativeGate exception."
+    }
+  ],
+  "wheel_record_policy": "Original wheel RECORDs retained exactly, without installer reconstruction. Source adaptations are separately pinned; final runtime inventory authenticates resulting bytes.",
+  "profile_kind": "Exact flat wheel members and explicit source adaptations; no generated CLI launchers, bytecode or pip metadata.",
+  "lock_sha256": "693dd71e2680dabb9f90cce2d45e8531b0c21810f30909538429a4d92803a1b0"
+}

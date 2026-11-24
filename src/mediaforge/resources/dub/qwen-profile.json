@@ -1,0 +1,534 @@
+{
+  "schema": 1,
+  "profile": "qwen12-customvoice-cu128-final3",
+  "qualification": "candidate-pending-native-and-independent-review",
+  "runtime_manifest_sha256": "ec1bb1408c74b776b1d31e853b43e2914d09876598f1b9dfa9ccb9d157758ea7",
+  "assets": [
+    {
+      "filename": "accelerate-1.12.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/9f/d2/c581486aa6c4fbd7394c23c47b83fa1a919d34194e16944241daf9e762dd/accelerate-1.12.0-py3-none-any.whl",
+      "size": 380935,
+      "sha256": "3e2091cd341423207e2f084a6654b1efcd250dc326f2a37d6dde446e07cabb11",
+      "name": "accelerate",
+      "version": "1.12.0+mf.qwenp0b1",
+      "rename_from": "accelerate-1.12.0.dist-info",
+      "rename_to": "accelerate-1.12.0+mf.qwenp0b1.dist-info",
+      "omit": [
+        "accelerate-1.12.0+mf.qwenp0b1.dist-info/entry_points.txt"
+      ],
+      "overlays": {
+        "accelerate-1.12.0+mf.qwenp0b1.dist-info/METADATA": {
+          "path": "patches/accelerate/accelerate-1.12.0+mf.qwenp0b1.dist-info/METADATA",
+          "sha256": "9ebdc11dae4d3a5061e25ecc23f9eab68fc579412004bf79f7c6686a76d3ab5e",
+          "size": 19756
+        },
+        "accelerate-1.12.0+mf.qwenp0b1.dist-info/MF_MODIFICATIONS.txt": {
+          "path": "patches/accelerate/accelerate-1.12.0+mf.qwenp0b1.dist-info/MF_MODIFICATIONS.txt",
+          "sha256": "b09f4face491b6bfe94ae8bab40a9e70c9a6c5cb47ec60a14ba3ec02bd7b3c71",
+          "size": 151
+        },
+        "accelerate-1.12.0+mf.qwenp0b1.dist-info/RECORD": {
+          "path": "patches/accelerate/accelerate-1.12.0+mf.qwenp0b1.dist-info/RECORD",
+          "sha256": "905abf19632f79292820c637b04f866bb411db253676e20336137bc4d52a7d3f",
+          "size": 8339
+        },
+        "accelerate/__init__.py": {
+          "path": "patches/accelerate/accelerate/__init__.py",
+          "sha256": "df92d6bfffed6339d4597c01e08c090defa937fb4abb29d3474a1e3364f34f06",
+          "size": 1567
+        },
+        "accelerate/big_modeling.py": {
+          "path": "patches/accelerate/accelerate/big_modeling.py",
+          "sha256": "e08a180786f687cfa6545d27d46f6e33fa7506ee008f816ecd102f94dc93bc8f",
+          "size": 35383
+        },
+        "accelerate/utils/modeling.py": {
+          "path": "patches/accelerate/accelerate/utils/modeling.py",
+          "sha256": "629213c9ee9cea3dfc576d4a942381331cf16b5e3c9bb562937eb55323941176",
+          "size": 86030
+        }
+      }
+    },
+    {
+      "filename": "certifi-2026.10.23-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/32/d1/a3652fe2c19134d0d15922177821d863cbd7e842d53a21bbe7e8e3a1b5ac/certifi-2026.10.23-py3-none-any.whl",
+      "size": 135082,
+      "sha256": "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1",
+      "name": "certifi",
+      "version": "2026.10.23"
+    },
+    {
+      "filename": "charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/eb/e6/e6e083884cbcfd49c64865af05027fe7011be7b2d9179524f099a1b611f3/charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl",
+      "size": 207486,
+      "sha256": "780fbe7cab297b81dad9fb8dc5eb003c0468ffb0d9e5f65068c53a34661a96bc",
+      "name": "charset-normalizer",
+      "version": "3.5.2"
+    },
+    {
+      "filename": "colorama-0.4.6-py2.py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl",
+      "size": 25335,
+      "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6",
+      "name": "colorama",
+      "version": "0.4.6"
+    },
+    {
+      "filename": "filelock-4.2.4-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/e0/1b/5e74289a1878e666bb4b65fe5805a04cafcac2aa5f519ef1ead67ef91c56/filelock-4.2.4-py3-none-any.whl",
+      "size": 162475,
+      "sha256": "301241438c57936ef93f4243a94f2559022268bfcf9b375a9a72eb0f8db8358e",
+      "name": "filelock",
+      "version": "4.2.4"
+    },
+    {
+      "filename": "fsspec-2026.9.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/6c/c0/a98505f18594f1bce828bb159cec0fcf9860562f1a2c85913409fc8f3d9e/fsspec-2026.9.0-py3-none-any.whl",
+      "size": 221738,
+      "sha256": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f",
+      "name": "fsspec",
+      "version": "2026.9.0"
+    },
+    {
+      "filename": "huggingface_hub-0.36.2-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/a8/af/48ac8483240de756d2438c380746e7130d1c6f75802ef22f3c6d49982787/huggingface_hub-0.36.2-py3-none-any.whl",
+      "size": 566395,
+      "sha256": "48f0c8eac16145dfce371e9d2d7772854a4f591bcb56c9cf548accf531d54270",
+      "name": "huggingface-hub",
+      "version": "0.36.2"
+    },
+    {
+      "filename": "idna-3.20-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl",
+      "size": 69583,
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+      "name": "idna",
+      "version": "3.20"
+    },
+    {
+      "filename": "jinja2-3.1.6-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl",
+      "size": 134899,
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "name": "jinja2",
+      "version": "3.1.6"
+    },
+    {
+      "filename": "markupsafe-3.0.4-cp312-cp312-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/3f/bf/62495e180b7000aaf30000fff849e933f74264638057176cf46852500adc/markupsafe-3.0.4-cp312-cp312-win_amd64.whl",
+      "size": 14303,
+      "sha256": "11935df9bf455ed0c04eb87bcd720f02b1fe5e02128a9430f23aed6f93336fc7",
+      "name": "markupsafe",
+      "version": "3.0.4"
+    },
+    {
+      "filename": "mpmath-1.3.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl",
+      "size": 536198,
+      "sha256": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+      "name": "mpmath",
+      "version": "1.3.0"
+    },
+    {
+      "filename": "networkx-3.7-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/7e/cd/fe58041e9011f307c490e3e17dd48cc516448f7c698a3f2d9d9d65d7e6a8/networkx-3.7-py3-none-any.whl",
+      "size": 2142205,
+      "sha256": "e3fd2c13a7814cee3746340d8d7f8598a67f16a58bf47fb7f8793fab6efca1b0",
+      "name": "networkx",
+      "version": "3.7"
+    },
+    {
+      "filename": "numpy-2.5.4-cp312-cp312-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/12/33/fefe62073dc8acfd0f2b9ed7c003af2f50aa61555e113e6db02b8f79f145/numpy-2.5.4-cp312-cp312-win_amd64.whl",
+      "size": 12573091,
+      "sha256": "a7b1b6353e36a7e50de2973a38d705c88ee93adcf120673cee7f45a4a3fa223a",
+      "name": "numpy",
+      "version": "2.5.4"
+    },
+    {
+      "filename": "packaging-26.3-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+      "size": 129956,
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "name": "packaging",
+      "version": "26.3"
+    },
+    {
+      "filename": "psutil-7.2.2-cp37-abi3-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/b4/90/e2159492b5426be0c1fef7acba807a03511f97c5f86b3caeda6ad92351a7/psutil-7.2.2-cp37-abi3-win_amd64.whl",
+      "size": 137737,
+      "sha256": "eb7e81434c8d223ec4a219b5fc1c47d0417b12be7ea866e24fb5ad6e84b3d988",
+      "name": "psutil",
+      "version": "7.2.2"
+    },
+    {
+      "filename": "pyyaml-6.0.3-cp312-cp312-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/86/bf/899e81e4cce32febab4fb42bb97dcdf66bc135272882d1987881a4b519e9/pyyaml-6.0.3-cp312-cp312-win_amd64.whl",
+      "size": 154003,
+      "sha256": "5fcd34e47f6e0b794d17de1b4ff496c00986e1c83f7ab2fb8fcfe9616ff7477b",
+      "name": "pyyaml",
+      "version": "6.0.3"
+    },
+    {
+      "filename": "qwen_tts-0.1.1-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/31/01/95f3ae26f5b7eb2105f69ad2c15af5a28b9ebdd1258a0b27541f5ebd6225/qwen_tts-0.1.1-py3-none-any.whl",
+      "size": 113529,
+      "sha256": "11a290d8dabc7ef91a90c54478c8ab19b3edb1d85c0882313721892bdc4af15d",
+      "name": "qwen-tts",
+      "version": "0.1.1+mf.headless12.4",
+      "rename_from": "qwen_tts-0.1.1.dist-info",
+      "rename_to": "qwen_tts-0.1.1+mf.headless12.4.dist-info",
+      "omit": [
+        "qwen_tts-0.1.1+mf.headless12.4.dist-info/entry_points.txt",
+        "qwen_tts/cli/demo.py",
+        "qwen_tts/core/tokenizer_25hz/configuration_qwen3_tts_tokenizer_v1.py",
+        "qwen_tts/core/tokenizer_25hz/modeling_qwen3_tts_tokenizer_v1.py",
+        "qwen_tts/core/tokenizer_25hz/vq/assets/mel_filters.npz",
+        "qwen_tts/core/tokenizer_25hz/vq/core_vq.py",
+        "qwen_tts/core/tokenizer_25hz/vq/speech_vq.py",
+        "qwen_tts/core/tokenizer_25hz/vq/whisper_encoder.py"
+      ],
+      "overlays": {
+        "qwen_tts-0.1.1+mf.headless12.4.dist-info/METADATA": {
+          "path": "patches/qwen-tts/qwen_tts-0.1.1+mf.headless12.4.dist-info/METADATA",
+          "sha256": "858aad9c8c62cbe4736943ac71fa6dce15824bb4c1a161e674af1dd43a14c67e",
+          "size": 61476
+        },
+        "qwen_tts-0.1.1+mf.headless12.4.dist-info/MF_MODIFICATIONS.txt": {
+          "path": "patches/qwen-tts/qwen_tts-0.1.1+mf.headless12.4.dist-info/MF_MODIFICATIONS.txt",
+          "sha256": "e14a031491a3fa80b0ecefd9544726168df7cd6a6507812eef9250793822e261",
+          "size": 490
+        },
+        "qwen_tts-0.1.1+mf.headless12.4.dist-info/RECORD": {
+          "path": "patches/qwen-tts/qwen_tts-0.1.1+mf.headless12.4.dist-info/RECORD",
+          "sha256": "829490f0672e0afb9448369a2e567e32531e624261166f8455cce4b6127894f0",
+          "size": 1993
+        },
+        "qwen_tts/__init__.py": {
+          "path": "patches/qwen-tts/qwen_tts/__init__.py",
+          "sha256": "50aa7176a8161882e960ee7d63dcdaa9ba69eafd3a449f1862826153fd056af8",
+          "size": 241
+        },
+        "qwen_tts/core/__init__.py": {
+          "path": "patches/qwen-tts/qwen_tts/core/__init__.py",
+          "sha256": "bfdd07140139f00b767c9ecccbdd2cb1222a5c74a6d98898c02930261dfdb55d",
+          "size": 815
+        },
+        "qwen_tts/core/models/modeling_qwen3_tts.py": {
+          "path": "patches/qwen-tts/qwen_tts/core/models/modeling_qwen3_tts.py",
+          "sha256": "4c15c3e91132c550aaa7d6c8fa8499dc197706748d666fab0ac4ea802a4a7e56",
+          "size": 96702
+        },
+        "qwen_tts/core/models/processing_qwen3_tts.py": {
+          "path": "patches/qwen-tts/qwen_tts/core/models/processing_qwen3_tts.py",
+          "sha256": "16ab04ddcf916626ec5747e25ca67b4fa2e890b8243db68a9b0aab47c8f15e02",
+          "size": 3911
+        },
+        "qwen_tts/inference/qwen3_tts_model.py": {
+          "path": "patches/qwen-tts/qwen_tts/inference/qwen3_tts_model.py",
+          "sha256": "50938b60125c7273eaac3324c0e6476bad16c96e7576fec204e510efdd4d3645",
+          "size": 23491
+        },
+        "qwen_tts/inference/qwen3_tts_tokenizer.py": {
+          "path": "patches/qwen-tts/qwen_tts/inference/qwen3_tts_tokenizer.py",
+          "sha256": "9395767a71aea79300b1f250bf0d88165584acf806f626c0d022ca8c7d761bc8",
+          "size": 11424
+        },
+        "qwen_tts/mf_components.py": {
+          "path": "patches/qwen-tts/qwen_tts/mf_components.py",
+          "sha256": "6b40d46789e2277de2323fb5b45393f98bf8a49e834cb4285729603d1b5ede82",
+          "size": 3480
+        },
+        "qwen_tts/mf_constants.py": {
+          "path": "patches/qwen-tts/qwen_tts/mf_constants.py",
+          "sha256": "654f4e35451d9686c45a157d56fad6efeb5e8f1ca9ff3c582cd54a094dab8e3a",
+          "size": 1513
+        },
+        "qwen_tts/mf_contracts.py": {
+          "path": "patches/qwen-tts/qwen_tts/mf_contracts.py",
+          "sha256": "e5e7f7a1bd87f4270d23d8e5b7e6b39a5a12ca0a45a3320822fb4679f827bace",
+          "size": 5898
+        },
+        "qwen_tts/mf_native_files.py": {
+          "path": "patches/qwen-tts/qwen_tts/mf_native_files.py",
+          "sha256": "2e57f75208bee7947b5104e6267cba5b6b5138bd29a07bcc15c3528622371916",
+          "size": 4333
+        }
+      }
+    },
+    {
+      "filename": "regex-2026.9.29-cp312-cp312-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/93/19/489bc8db91196381c935752df01ba3f607140daece33b78d88573f028e64/regex-2026.9.29-cp312-cp312-win_amd64.whl",
+      "size": 280334,
+      "sha256": "fdd88ed5e20b1bcdd234421e454962c971aa44b653bdb7f1ea9ef683e90fb649",
+      "name": "regex",
+      "version": "2026.9.29"
+    },
+    {
+      "filename": "requests-2.34.2-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl",
+      "size": 73075,
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+      "name": "requests",
+      "version": "2.34.2"
+    },
+    {
+      "filename": "safetensors-0.8.0-cp310-abi3-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/1b/6d/3fba214c1e5e0f69991677ec3bc17023f0421776975e1de0c682dca475e2/safetensors-0.8.0-cp310-abi3-win_amd64.whl",
+      "size": 355540,
+      "sha256": "096ec1a98435df7beb08853bb5aa9081a84f23d0adc67ed1a0a10550f608373f",
+      "name": "safetensors",
+      "version": "0.8.0"
+    },
+    {
+      "filename": "setuptools-84.2.1-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/ef/55/6dc6d6bb953bdfc52519a0059592c52b6e3b8ad51cf8256dffceb55b0610/setuptools-84.2.1-py3-none-any.whl",
+      "size": 876263,
+      "sha256": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2",
+      "name": "setuptools",
+      "version": "84.2.1"
+    },
+    {
+      "filename": "sympy-1.14.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl",
+      "size": 6299353,
+      "sha256": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5",
+      "name": "sympy",
+      "version": "1.14.0"
+    },
+    {
+      "filename": "tokenizers-0.22.2-cp39-abi3-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/65/71/0670843133a43d43070abeb1949abfdef12a86d490bea9cd9e18e37c5ff7/tokenizers-0.22.2-cp39-abi3-win_amd64.whl",
+      "size": 2747786,
+      "sha256": "c9ea31edff2968b44a88f97d784c2f16dc0729b8b143ed004699ebca91f05c48",
+      "name": "tokenizers",
+      "version": "0.22.2"
+    },
+    {
+      "filename": "torch-2.10.0+cu128-cp312-cp312-win_amd64.whl",
+      "url": "https://download-r2.pytorch.org/whl/cu128/torch-2.10.0%2Bcu128-cp312-cp312-win_amd64.whl",
+      "size": 2867409626,
+      "sha256": "fbde8f6a9ec8c76979a0d14df21c10b9e5cab6f0d106a73ca73e2179bc597cae",
+      "name": "torch",
+      "version": "2.10.0+cu128"
+    },
+    {
+      "filename": "tqdm-4.70.1-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/a7/03/921a3d3c75785aca9ebfbfcabfbc3a1be12e2ab5265deb026d55a5a3f83e/tqdm-4.70.1-py3-none-any.whl",
+      "size": 80199,
+      "sha256": "c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73",
+      "name": "tqdm",
+      "version": "4.70.1"
+    },
+    {
+      "filename": "transformers-4.57.3-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/6a/6b/2f416568b3c4c91c96e5a365d164f8a4a4a88030aa8ab4644181fdadce97/transformers-4.57.3-py3-none-any.whl",
+      "size": 11993463,
+      "sha256": "c77d353a4851b1880191603d36acb313411d3577f6e2897814f333841f7003f4",
+      "name": "transformers",
+      "version": "4.57.3+mf.qwenp0b1",
+      "rename_from": "transformers-4.57.3.dist-info",
+      "rename_to": "transformers-4.57.3+mf.qwenp0b1.dist-info",
+      "omit": [
+        "transformers-4.57.3+mf.qwenp0b1.dist-info/entry_points.txt"
+      ],
+      "overlays": {
+        "transformers-4.57.3+mf.qwenp0b1.dist-info/METADATA": {
+          "path": "patches/transformers/transformers-4.57.3+mf.qwenp0b1.dist-info/METADATA",
+          "sha256": "4cb81627f498a4d16216424edd2ea1aea105a445a4c7c66a31c720b107a679e1",
+          "size": 44146
+        },
+        "transformers-4.57.3+mf.qwenp0b1.dist-info/MF_MODIFICATIONS.txt": {
+          "path": "patches/transformers/transformers-4.57.3+mf.qwenp0b1.dist-info/MF_MODIFICATIONS.txt",
+          "sha256": "b09f4face491b6bfe94ae8bab40a9e70c9a6c5cb47ec60a14ba3ec02bd7b3c71",
+          "size": 151
+        },
+        "transformers-4.57.3+mf.qwenp0b1.dist-info/RECORD": {
+          "path": "patches/transformers/transformers-4.57.3+mf.qwenp0b1.dist-info/RECORD",
+          "sha256": "c6a182a9bb5cd39d1ce6aa15e31e44d04e51d343671946fe7d9b362744c30119",
+          "size": 240218
+        },
+        "transformers/__init__.py": {
+          "path": "patches/transformers/transformers/__init__.py",
+          "sha256": "499f3feabb31f67a4793f41346a85dc29f744a34c8cd0d1ad2cbef45b3e73432",
+          "size": 47012
+        },
+        "transformers/configuration_utils.py": {
+          "path": "patches/transformers/transformers/configuration_utils.py",
+          "sha256": "4a3189fd029cd7035fcd75295288c7594dabed23d9ee93e9ef7ad9ab1ca43142",
+          "size": 63488
+        },
+        "transformers/feature_extraction_utils.py": {
+          "path": "patches/transformers/transformers/feature_extraction_utils.py",
+          "sha256": "70b6acf4d27e0fd1a5d85327a5e1e478d4cc9c1f76efe44250feb75e8da934b7",
+          "size": 28871
+        },
+        "transformers/generation/utils.py": {
+          "path": "patches/transformers/transformers/generation/utils.py",
+          "sha256": "d30b20fa5cba7de1f8ae21f1f36370eee227b5b1d7797626b670aeb55c4d74ac",
+          "size": 208723
+        },
+        "transformers/integrations/hub_kernels.py": {
+          "path": "patches/transformers/transformers/integrations/hub_kernels.py",
+          "sha256": "276451887b616448ea8b6d636c13bf48b7ae554892ba19b0fc93d852565a4411",
+          "size": 1892
+        },
+        "transformers/mf_security.py": {
+          "path": "patches/transformers/transformers/mf_security.py",
+          "sha256": "299ca100191afc9b14008826fe242722b59a2e23a2a319ad0e952e13d6a111b3",
+          "size": 1113
+        },
+        "transformers/modeling_utils.py": {
+          "path": "patches/transformers/transformers/modeling_utils.py",
+          "sha256": "e3260944f50f44002801455e3e91a1a74fb4e35613980103867ac69abf104b8b",
+          "size": 289150
+        },
+        "transformers/processing_utils.py": {
+          "path": "patches/transformers/transformers/processing_utils.py",
+          "sha256": "73a73bb2f5563557ed25a70a3ffcb99edf4e45294b6d7ffb24203b072d6ba3e0",
+          "size": 78815
+        },
+        "transformers/tokenization_utils_base.py": {
+          "path": "patches/transformers/transformers/tokenization_utils_base.py",
+          "sha256": "f66b0342684325edd5186bd77b07e1f335ddf080a93ec852300280993caa4fb7",
+          "size": 212009
+        }
+      }
+    },
+    {
+      "filename": "typing_extensions-4.16.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+      "size": 45571,
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "name": "typing-extensions",
+      "version": "4.16.0"
+    },
+    {
+      "filename": "urllib3-2.8.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl",
+      "size": 135717,
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+      "name": "urllib3",
+      "version": "2.8.0"
+    }
+  ],
+  "models": [
+    {
+      "model_id": "qwen3-tts-06b-customvoice",
+      "revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+      "members": [
+        {
+          "name": "README.md",
+          "size": 3263,
+          "sha256": "1e3adeecc7a72d6756fdb77c2847f8e994195e105b51206a7a5c049b0dfa48a8",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/85e237c12c027371202489a0ec509ded67b5e4b5/README.md"
+        },
+        {
+          "name": "config.json",
+          "size": 4908,
+          "sha256": "81aca2b6fac304944d8acf345272d8a9a727d5fc2e2e66b222ab4729340c7455",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/85e237c12c027371202489a0ec509ded67b5e4b5/config.json"
+        },
+        {
+          "name": "generation_config.json",
+          "size": 245,
+          "sha256": "f1b90b4513f3b34c62851049e2492d7b4c5940daf1276f89c82b8ef04127f3aa",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/85e237c12c027371202489a0ec509ded67b5e4b5/generation_config.json"
+        },
+        {
+          "name": "merges.txt",
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/85e237c12c027371202489a0ec509ded67b5e4b5/merges.txt"
+        },
+        {
+          "name": "model.safetensors",
+          "size": 1811626576,
+          "sha256": "bc3c7e785eb961179c25450d1acff03f839e0002f2f3a5aeb67b5735c0fa2adb",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/85e237c12c027371202489a0ec509ded67b5e4b5/model.safetensors"
+        },
+        {
+          "name": "preprocessor_config.json",
+          "size": 127,
+          "sha256": "efdde1022ea9d76928bf7a9cd53139138f5ba2e466e837f08f6105ab1af1c119",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/85e237c12c027371202489a0ec509ded67b5e4b5/preprocessor_config.json"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "size": 7344,
+          "sha256": "dc3c31c3bdaedd5016382bb3cbe07323026775ad51f5a4fb564505992ae4a670",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/85e237c12c027371202489a0ec509ded67b5e4b5/tokenizer_config.json"
+        },
+        {
+          "name": "vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/85e237c12c027371202489a0ec509ded67b5e4b5/vocab.json"
+        }
+      ],
+      "total_bytes": 1816091135,
+      "approval": "P0 CANDIDATE ONLY; not registered/Ready"
+    },
+    {
+      "model_id": "qwen3-tts-tokenizer-12hz",
+      "revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+      "members": [
+        {
+          "name": "config.json",
+          "size": 2336,
+          "sha256": "ee65bb901c876664ab8707c487157aa1a6ee57c65969b28fb5ec9dc211e68167",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/85e237c12c027371202489a0ec509ded67b5e4b5/speech_tokenizer/config.json"
+        },
+        {
+          "name": "configuration.json",
+          "size": 76,
+          "sha256": "6bc26d64eb5024b4d1dab5a52371958b429256d6c9d59787f1f5294a54e0cebd",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/85e237c12c027371202489a0ec509ded67b5e4b5/speech_tokenizer/configuration.json"
+        },
+        {
+          "name": "model.safetensors",
+          "size": 682293092,
+          "sha256": "836b7b357f5ea43e889936a3709af68dfe3751881acefe4ecf0dbd30ba571258",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/85e237c12c027371202489a0ec509ded67b5e4b5/speech_tokenizer/model.safetensors"
+        },
+        {
+          "name": "preprocessor_config.json",
+          "size": 234,
+          "sha256": "fcb3805e597e786d4067706e602f6688524640f8d3396790e2e09b5942fcbdfb",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/85e237c12c027371202489a0ec509ded67b5e4b5/speech_tokenizer/preprocessor_config.json"
+        }
+      ],
+      "total_bytes": 682295738,
+      "approval": "P0 CANDIDATE ONLY; not registered/Ready"
+    }
+  ],
+  "source_provenance": [
+    {
+      "name": "accelerate",
+      "upstream": "3e2091cd341423207e2f084a6654b1efcd250dc326f2a37d6dde446e07cabb11",
+      "derived": "8fc3fdefa940bcba1dd146966a2dc25317ced01bbcd2321999cf6dcdba431458"
+    },
+    {
+      "name": "qwen-tts",
+      "upstream": "11a290d8dabc7ef91a90c54478c8ab19b3edb1d85c0882313721892bdc4af15d",
+      "derived": "45835bdf4e7ebf8ac397772401c7e39e4ed0c4b45e254af325ba9332ec64d86e",
+      "derived_12_2": "476f7a305b51b7808785520f3db477be6b3c3a6806870276ee94d83bc684067b",
+      "recipe": "tools/rebuild_qwen_headless.py; upstream wheel plus authenticated source overlays; deterministic ZIP",
+      "prior_derived": [
+        {
+          "version": "0.1.1+mf.headless12.3",
+          "sha256": "a26364ea28783c83bb437ab3a7c9e1cbcd95fab7de9fde68945a74b1ef9f97bd"
+        }
+      ]
+    },
+    {
+      "name": "transformers",
+      "upstream": "c77d353a4851b1880191603d36acb313411d3577f6e2897814f333841f7003f4",
+      "derived": "c678b4a78b9a978d997956d0d2d3f67dd3f3172a60dca9d69c25fbb3d4bb6a9e"
+    }
+  ],
+  "network_bytes": 5406388750,
+  "runtime_bytes": 4679145132,
+  "runtime_revision": "final3",
+  "manifest_name": "qwen-cu128-final3.json"
+}

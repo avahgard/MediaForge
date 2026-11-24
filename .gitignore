@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.checks/
+# Developer/machine context is optional and never versioned.
+.local/
+/App/
+# Private history and local credentials are never release inputs.
+/history/
+.env
+.env.*
+# External FFmpeg payload is provisioned locally, never versioned.
+ffmpeg*.exe
+ffprobe*.exe
+ffmpeg-*-essentials_build.zip

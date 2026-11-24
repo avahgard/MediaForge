@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools==84.1.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mediaforge"
+version = "1.0.0"
+description = "MediaForge desktop application foundation"
+requires-python = ">=3.12,<3.14"
+license = "GPL-3.0-only"
+license-files = ["LICENSE", "COPYRIGHT.md", "docs/THIRD_PARTY_NOTICES.md", "licenses/Apache-2.0.txt"]
+dependencies = ["PySide6==6.11.2", "numpy==2.4.3", "imagecodecs==2026.11.11", "tifffile==2026.9.20"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.0.3"]
+
+[project.gui-scripts]
+mediaforge = "mediaforge.bootstrap.application:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mediaforge = ["presentation/qml/*.qml", "presentation/qml/*.svg", "presentation/qml/qmldir", "resources/dub/*.json", "resources/dub/patches/**/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+    "native: real platform GUI/multimedia or native OS-dependent behavior",
+    "integration: real runtime/process or substantial cross-component integration",
+    "heavy: demonstrated significant runtime or storage cost",
+    "performance: explicit measured performance gate",
+]

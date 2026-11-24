@@ -1,0 +1,5 @@
+MediaForge P0b-S isolated headless/source-security qualification. Not an upstream release or production approval. See exact retained patch and recipe.
+
+MediaForge final delivery 12.3: selector guards apply to configuration documents only; vocabulary remains authenticated literal data. No neural synthesis change.
+
+MediaForge 0.1.1+mf.headless12.4: Supply authenticated local generation config explicitly; preserve refusal of custom generation discovery. No neural math or sampling change.
