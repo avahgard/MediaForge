@@ -6190,7 +6190,7 @@ d86e3c70b877ef4f8c86eeca4d2c9d77081120deef1228364ab12aa20e30f366	130247	Core/Sit
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	0	Core/Site/imagecodecs/py.typed
 ade01c99af77dc152e28963fe7ef2ee52344cd2f843162798876c70b87ea2aaa	2375	Core/Site/imagecodecs/typing.py
 2a27a39456ebd67900601b46fc2f7526ed9edf3fc22c1d857ef737bae7ad4d0e	260069	Core/Site/imagecodecs/zarr.py
-d15f0a2a08310def140ba1b092632ddaa25c28ada4149433a22a082185bafa06	54	Core/Site/mediaforge-1.0.0.dist-info/METADATA
+0e4d6c5ee6b55680f14dbc5e15f0be156678c8320cff9b26ab36e81784045763	54	Core/Site/mediaforge-1.0.1.dist-info/METADATA
 5d4c6cb08fdcea4f1c0e0f61a47ceb6edfbd3e1b9f1ad52322c2dcc05992f9f1	462	Core/Site/numpy-2.4.3.dist-info/DELVEWHEEL
 621bf875d57eee8673f39344ea98ddc370e944e9c8c36b38b430e290f2b682cf	6608	Core/Site/numpy-2.4.3.dist-info/METADATA
 3e71ed7e3c05ba0cc9d457aad55050209619f930c315a75d0b2770fbb3644bfb	86375	Core/Site/numpy-2.4.3.dist-info/RECORD

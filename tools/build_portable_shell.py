@@ -52,6 +52,9 @@ def main():
             output.parent.mkdir(parents=True,exist_ok=True)
             with source.open('rb') as incoming,output.open('xb') as result:shutil.copyfileobj(incoming,result)
             if sha(output)!=sha(source):raise ValueError('Application copy differs.')
+        icon = app/'mediaforge/resources/MediaForge.ico'
+        icon.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(REPO/'assets/icons/MediaForge.ico', icon)
         metadata=core/f'Site/mediaforge-{version}.dist-info';metadata.mkdir()
         (metadata/'METADATA').write_text(
             f'Metadata-Version: 2.1\nName: mediaforge\nVersion: {version}\n',encoding='utf-8')
@@ -79,10 +82,11 @@ def main():
     manifest_sha=hashlib.sha256(encoded).hexdigest()
     generated=paths.temporary/'Launcher-final-01.cs'
     with generated.open('x',encoding='utf-8') as stream:
-        stream.write((REPO/'packaging/Launcher.cs').read_text(encoding='utf-8').replace('@MANIFEST_SHA256@',manifest_sha))
+        stream.write((REPO/'packaging/Launcher.cs').read_text(encoding='utf-8').replace('@MANIFEST_SHA256@',manifest_sha)
+                     .replace('@RELEASE_VERSION@',version))
     references=[str(CSC.parent/name) for name in ('mscorlib.dll','System.dll','System.Core.dll','System.Windows.Forms.dll','System.Drawing.dll')]
     command=[str(CSC),'/nologo','/noconfig','/nostdlib+','/target:winexe','/platform:x64','/optimize+','/debug-',
-        '/codepage:65001',*['/reference:'+path for path in references],'/out:'+str(root/'MediaForge.exe'),str(generated)]
+        '/codepage:65001','/win32icon:'+str(REPO/'assets/icons/MediaForge.ico'),*['/reference:'+path for path in references],'/out:'+str(root/'MediaForge.exe'),str(generated)]
     completed=subprocess.run(command,stdin=subprocess.DEVNULL,capture_output=True,timeout=60,
         cwd=paths.temporary,env=paths.child_environment({}),creationflags=subprocess.CREATE_NO_WINDOW)
     result=dict(ok=completed.returncode==0,version=version,compiler=str(CSC),compiler_sha256=sha(CSC),exit=completed.returncode,

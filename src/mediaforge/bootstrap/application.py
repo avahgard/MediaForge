@@ -7,10 +7,11 @@ import sys
 from time import perf_counter
 
 from PySide6.QtCore import QTimer, QUrl, Qt
-from PySide6.QtGui import QGuiApplication, QWindow
+from PySide6.QtGui import QGuiApplication, QIcon, QWindow
 from PySide6.QtQml import QQmlApplicationEngine
 from PySide6.QtMultimedia import QAudioOutput, QMediaPlayer
 
+from mediaforge.bootstrap.windows_branding import set_shell_identity, set_shell_relaunch
 from mediaforge.application.services.source_timeline import SourceTimelineService
 from mediaforge.infrastructure.ffmpeg.source_timeline import FfprobeTimelineIndexer
 from mediaforge.application.services.media import OpenMediaService
@@ -56,6 +57,7 @@ def load_shell(engine: QQmlApplicationEngine, source: Path, logger) -> QWindow:
     roots = engine.rootObjects()
     if not roots or not isinstance(roots[0], QWindow):
         raise RuntimeError(f"Root QML did not create an application window: {source}")
+    roots[0].setIcon(QGuiApplication.windowIcon())
     return roots[0]
 
 
@@ -152,11 +154,19 @@ def main(argv: list[str] | None = None, *, prepared_profile=None, startup=None) 
         print(f'MediaForge startup failed: {error}', file=sys.stderr)
         return 1
     os.environ["QML_DISABLE_DISK_CACHE"] = "1"
+    portable_executable = getattr(sys, 'mediaforge_portable_executable', None)
+    if portable_executable:
+        set_shell_identity()
     app = QGuiApplication(sys.argv if argv is None else argv)
     mark('Qt application created')
     app.setApplicationName("MediaForge")
     app.setOrganizationName("MediaForge")
     app.setApplicationVersion(version("mediaforge"))
+    icon_path = Path(__file__).resolve().parents[1] / 'resources' / 'MediaForge.ico'
+    if not portable_executable:
+        icon_path = Path(__file__).resolve().parents[3] / 'assets' / 'icons' / 'MediaForge.ico'
+    icon = QIcon(str(icon_path))
+    app.setWindowIcon(icon)
     logger = None
     engine = None
     media_view_model = None
@@ -205,6 +215,8 @@ def main(argv: list[str] | None = None, *, prepared_profile=None, startup=None) 
         engine.rootContext().setContextProperty("settingsViewModel", settings_view_model)
         engine.rootContext().setContextProperty("appNavigation", navigation)
         window = load_shell(engine, qml_root(), logger)
+        if portable_executable:
+            set_shell_relaunch(window, portable_executable, logger)
         mark('QML loaded')
         logger.info("QML shell loaded")
         def report_startup():

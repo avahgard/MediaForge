@@ -67,7 +67,9 @@ def main():
                 if source.is_dir() or '__pycache__' in source.parts or source.suffix=='.pyc':continue
                 local_path(source);sources.parents(source.parent);sources.add(source)
                 desired[root/'Core/App/mediaforge'/source.relative_to(REPO/'src/mediaforge')]=source.read_bytes()
-            for source,target in ((REPO/'packaging/portable_boot.py',root/'Core/portable_boot.py'),
+            icon = REPO/'assets/icons/MediaForge.ico'
+            for source,target in ((icon,root/'Core/App/mediaforge/resources/MediaForge.ico'),
+                                  (REPO/'packaging/portable_boot.py',root/'Core/portable_boot.py'),
                                   (REPO/'packaging/Launcher.cs',root/'Core/Provenance/Launcher.cs')):
                 sources.parents(source.parent);sources.add(source);desired[target]=source.read_bytes()
             dirs={d for f in old for d in f.parents if d!=root and d.is_relative_to(root)}
@@ -114,14 +116,19 @@ def main():
             encoded=''.join(f'{digest}\t{size}\t{f.relative_to(root).as_posix()}\n'
                 for f,(size,digest) in sorted(new.items())).encode('utf-8')
             expected=sha(encoded)
+            version, = (
+                file.parent.name.removeprefix('mediaforge-').removesuffix('.dist-info')
+                for file in old if file.match('Core/Site/mediaforge-*.dist-info/METADATA')
+            )
             generated=paths.temporary/f'Launcher-final-{args.generation:02d}.cs'
             with generated.open('x',encoding='utf-8') as stream:
-                stream.write(desired[root/'Core/Provenance/Launcher.cs'].decode('utf-8').replace('@MANIFEST_SHA256@',expected))
+                stream.write(desired[root/'Core/Provenance/Launcher.cs'].decode('utf-8').replace('@MANIFEST_SHA256@',expected)
+                             .replace('@RELEASE_VERSION@',version))
             output=paths.temporary/f'MediaForge-launcher-final{args.generation}.exe'
             if output.exists():raise ValueError('Compiled build object already exists.')
             refs=[str(CSC.parent/n) for n in ('mscorlib.dll','System.dll','System.Core.dll','System.Windows.Forms.dll','System.Drawing.dll')]
             command=[str(CSC),'/nologo','/noconfig','/nostdlib+','/target:winexe','/platform:x64','/optimize+','/debug-',
-                '/codepage:65001',*['/reference:'+n for n in refs],'/out:'+output.name,generated.name]
+                '/codepage:65001','/win32icon:'+str(icon),*['/reference:'+n for n in refs],'/out:'+output.name,generated.name]
             compiled=subprocess.run(command,cwd=paths.temporary,env=paths.child_environment({}),
                 stdin=subprocess.DEVNULL,capture_output=True,timeout=60,creationflags=subprocess.CREATE_NO_WINDOW)
             result.update(compiler_exit=compiled.returncode,compiler_diagnostic=(compiled.stdout+compiled.stderr).decode('cp866',errors='replace')[-8192:])

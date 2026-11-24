@@ -1,0 +1,2 @@
+# These optional-model profiles and vendored overlays are authenticated by byte hash.
+src/mediaforge/resources/dub/** -text

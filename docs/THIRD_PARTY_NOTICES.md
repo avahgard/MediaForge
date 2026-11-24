@@ -15,7 +15,7 @@ CPython and native wheels directly from their suppliers. The
 [Core lock](../packaging/core-lock.json) and
 [FFmpeg manifest](../external/manifests/ffmpeg.json) list the exact inputs.
 Runtime licenses are retained in the installed wheels, Python distribution
-and `Runtime/1.0.0/Core/Notices/Gyan-FFmpeg.txt`.
+and `Runtime/<version>/Core/Notices/Gyan-FFmpeg.txt`.
 See [portable setup](PORTABLE_BOOTSTRAP.md) for acquisition and source.
 
 Optional AI models and provider runtimes are separately acquired under their

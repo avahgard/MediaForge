@@ -54,7 +54,14 @@ def build(output, manifest, expected_digest, ffmpeg_archive):
     if not runtime.pop(metadata, None):
         raise ValueError("The qualified manifest must use the selected MediaForge version.")
     runtime["Core/Notices/Gyan-FFmpeg.txt"] = (len(notice), digest(notice))
+    icon = REPO / "assets/icons/MediaForge.ico"
+    build_info = {
+        "schema": 1, "version": version, "build": "Windows x64 Portable Bootstrap",
+        "channel": "release", "project_url": "https://github.com/avahgard/MediaForge",
+    }
     seed = {
+        "Core/BuildInfo.json": (json.dumps(build_info) + "\n").encode(),
+        "Core/App/mediaforge/resources/MediaForge.ico": icon.read_bytes(),
         "Core/portable_boot.py": (REPO / "packaging/portable_boot.py").read_bytes(),
         "Core/Provenance/core-lock.json": lock,
         "external/manifests/ffmpeg.json": ffmpeg,
@@ -69,12 +76,19 @@ def build(output, manifest, expected_digest, ffmpeg_archive):
     encoded = "".join(f"{sha}\t{size}\t{name}\n" for name, (size, sha) in sorted(runtime.items())).encode()
     files = {f"Bootstrap/Seed/{name}": data for name, data in seed.items()}
     files.update({"Bootstrap/CoreManifest.tsv": encoded, "Bootstrap/Inputs.tsv": acquisition})
-    for path in ("README.md", "RELEASE_NOTES.md", "LICENSE", "COPYRIGHT.md",
+    for path in ("RELEASE_NOTES.md", "LICENSE", "COPYRIGHT.md",
                  "docs/THIRD_PARTY_NOTICES.md", "docs/PORTABLE_BOOTSTRAP.md", "licenses/Apache-2.0.txt"):
         files[path] = (REPO / path).read_bytes()
-    readme = files["README.md"].decode()
-    start, end = readme.index("Start development with"), readme.index("## License")
-    files["README.md"] = (readme[:start] + readme[end:]).encode()
+    files["README.md"] = (
+        f"# MediaForge {version} for Windows x64\n\n"
+        "Extract the complete ZIP to a writable local folder and launch `MediaForge.exe`. "
+        "Initial setup requires internet access and downloads about 400 MiB. "
+        "Subsequent Media editing and export work offline.\n\n"
+        "See [portable setup and manual updates](docs/PORTABLE_BOOTSTRAP.md), "
+        "the [release notes](RELEASE_NOTES.md), the [copyright notice](COPYRIGHT.md), "
+        "the [GPL-3.0-only license](LICENSE) and "
+        "[third-party notices](docs/THIRD_PARTY_NOTICES.md).\n"
+    ).encode()
     files["docs/THIRD_PARTY_NOTICES.md"] = files["docs/THIRD_PARTY_NOTICES.md"].replace(
         b"../src/mediaforge", b"../Bootstrap/Seed/Core/App/mediaforge"
     )
@@ -89,7 +103,7 @@ def build(output, manifest, expected_digest, ffmpeg_archive):
     subprocess.run([str(CSC), "/nologo", "/noconfig", "/nostdlib+", "/target:winexe", "/platform:x64",
                     "/optimize+", "/debug-", "/codepage:65001", "/define:PORTABLE_BOOTSTRAP",
                     *["/reference:" + str(CSC.parent / f"{r}.dll") for r in references],
-                    "/out:" + str(executable), str(output / "Launcher.cs"), str(output / "Bootstrap.cs")],
+                    "/win32icon:" + str(icon), "/out:" + str(executable), str(output / "Launcher.cs"), str(output / "Bootstrap.cs")],
                    check=True, timeout=60)
     files["MediaForge.exe"] = executable.read_bytes()
     archive = output / f"MediaForge-{version}-win64.zip"

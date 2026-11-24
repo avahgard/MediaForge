@@ -12,7 +12,17 @@ using System.Threading;
 using Microsoft.Win32.SafeHandles;
 using System.Windows.Forms;
 
+[assembly: System.Reflection.AssemblyTitle("MediaForge")]
+[assembly: System.Reflection.AssemblyProduct("MediaForge")]
+[assembly: System.Reflection.AssemblyDescription("MediaForge portable launcher")]
+[assembly: System.Reflection.AssemblyCopyright("Copyright © 2026 the MediaForge contributors")]
+[assembly: System.Reflection.AssemblyVersion("@RELEASE_VERSION@.0")]
+[assembly: System.Reflection.AssemblyFileVersion("@RELEASE_VERSION@.0")]
+[assembly: System.Reflection.AssemblyInformationalVersion("@RELEASE_VERSION@")]
+
 internal static partial class Launcher {
+    [DllImport("shell32.dll", CharSet=CharSet.Unicode, ExactSpelling=true)]
+    static extern int SetCurrentProcessExplicitAppUserModelID(string appId);
     const string ManifestHash = "@MANIFEST_SHA256@";
     [StructLayout(LayoutKind.Sequential)] struct Info {
         public uint Attributes; public System.Runtime.InteropServices.ComTypes.FILETIME Created,Accessed,Written;
@@ -93,6 +103,7 @@ internal static partial class Launcher {
         bool ownsInstance = false;
         bool verifyOnly = args.Length==1 && args[0]=="--verify-only";
         try {
+            if(!verifyOnly)SetCurrentProcessExplicitAppUserModelID("Avahgard.MediaForge");
             Require(args.Length==0 || verifyOnly,"Unsupported launcher argument.");
             string exe=System.Reflection.Assembly.GetExecutingAssembly().Location;
             Root=Path.GetDirectoryName(exe);
